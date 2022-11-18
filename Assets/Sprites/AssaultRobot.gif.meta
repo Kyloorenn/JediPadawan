@@ -1,0 +1,5710 @@
+fileFormatVersion: 2
+guid: 4e64b181fd8ba2f4398bed96a270c237
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 40
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: AssaultRobot_0
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 702
+        width: 37
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 681f9f0e1e662d6498e452989f748c88
+      internalID: 1746206619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AssaultRobot_1
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 702
+        width: 36
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfa76bb5c223a0743a0bfc3f256021fa
+      internalID: 257886456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AssaultRobot_2
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 702
+        width: 58
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84d4086756b05ac498d90b41bdd8dd43
+      internalID: 1319003195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AssaultRobot_3
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 702
+        width: 46
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12ac3d68cad77b8479e2b26e04794667
+      internalID: 1093854098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AssaultRobot_4
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 702
+        width: 36
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4883571810fbd542a0233daaa25c801
+      internalID: -1019105292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AssaultRobot_5
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 702
+        width: 36
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5bc820de832a4a4a82d67946e647b35
+      internalID: -760924088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AssaultRobot_6
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 702
+        width: 36
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be221e825d0acda478a6e17c14b9c351
+      internalID: 205239472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AssaultRobot_7
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 702
+        width: 36
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a88d42bbb5ff7549adf6fda57d30c33
+      internalID: 2100702967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AssaultRobot_8
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 702
+        width: 37
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13bfb290184c9f5469c4302f85bc9f13
+      internalID: -1643393206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AssaultRobot_9
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 702
+        width: 37
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 146828838896f524fae9b191f2c4a43e
+      internalID: -867475975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AssaultRobot_10
+      rect:
+        serializedVersion: 2
+        x: 417
+        y: 702
+        width: 36
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 519ceb26eafa887488d33c0dafaab80c
+      internalID: -1292067963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AssaultRobot_11
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 702
+        width: 36
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e0a8d73c8c5a2447b916bfd0312ae2e
+      internalID: -1947891224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AssaultRobot_12
+      rect:
+        serializedVersion: 2
+        x: 493
+        y: 702
+        width: 36
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8989d4570f687e145bba6b8159d41c53
+      internalID: 91137644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AssaultRobot_13
+      rect:
+        serializedVersion: 2
+        x: 531
+        y: 702
+        width: 36
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3999c7a621ffd824fb40e08a6d11d8c6
+      internalID: -1301797168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AssaultRobot_14
+      rect:
+        serializedVersion: 2
+        x: 569
+        y: 702
+        width: 46
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e23ce3a653d3dd45963e665470c4d67
+      internalID: -1608062845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AssaultRobot_15
+      rect:
+        serializedVersion: 2
+        x: 617
+        y: 702
+        width: 58
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4371b854861a52e47a016c170a6cb1c4
+      internalID: -1718809185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AssaultRobot_16
+      rect:
+        serializedVersion: 2
+        x: 677
+        y: 702
+        width: 36
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 064d49c03e3d2c9489052b42b006f640
+      internalID: 1759094968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AssaultRobot_17
+      rect:
+        serializedVersion: 2
+        x: 715
+        y: 702
+        width: 37
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5524e7b051633df468df4f6f5cc3858d
+      internalID: -1205466353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AssaultRobot_18
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 647
+        width: 36
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 349b5ec90c24e9e46bbac29d4f0ff624
+      internalID: -696667619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AssaultRobot_19
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 647
+        width: 36
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5794f80b14bab345874a7670da5d294
+      internalID: 1663947744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AssaultRobot_20
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 647
+        width: 36
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5cc65bfbfcae8274fbe6da4ecc69277b
+      internalID: 732191993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AssaultRobot_21
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 647
+        width: 36
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4824fa62ba68f9049bd6c8d79fb42273
+      internalID: -62723237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AssaultRobot_22
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 647
+        width: 36
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 962b805bc65fc104ea0a2a44b7a5c348
+      internalID: 1874641204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AssaultRobot_23
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 647
+        width: 36
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50c6bec4ec55464499977e53a20cb6a4
+      internalID: -1001411016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AssaultRobot_24
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 647
+        width: 36
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd7fb2e4eedd8764290184d2a22e89f9
+      internalID: 806462082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AssaultRobot_25
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 647
+        width: 36
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b700e88a28e29b844bf8a0b2a62b53bd
+      internalID: -628178781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AssaultRobot_26
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 647
+        width: 36
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fbcf321a3dbd1844861f99b89a3af10
+      internalID: 211772849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AssaultRobot_27
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 647
+        width: 36
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3829649e2c9b44349a860a719e1de87b
+      internalID: 601730049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AssaultRobot_28
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 647
+        width: 36
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f8836207ff151347b74908df6a4903c
+      internalID: -219825581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AssaultRobot_29
+      rect:
+        serializedVersion: 2
+        x: 492
+        y: 647
+        width: 36
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9a8807f3d7b4034a9a01f6d902df2bc
+      internalID: -1596735332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AssaultRobot_30
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 647
+        width: 36
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f23f46d29d11ba4c86acc0ffbf4e14e
+      internalID: -1006923876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AssaultRobot_31
+      rect:
+        serializedVersion: 2
+        x: 568
+        y: 647
+        width: 36
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a8a3de361118f34dabd3d6468c884f9
+      internalID: -1561198351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AssaultRobot_32
+      rect:
+        serializedVersion: 2
+        x: 606
+        y: 647
+        width: 36
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31ae15092f4768e45ac7c631e95f4e40
+      internalID: -431129846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AssaultRobot_33
+      rect:
+        serializedVersion: 2
+        x: 644
+        y: 647
+        width: 36
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17a0f4d4cda80ce41b4fd7159bb93dba
+      internalID: -925275627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AssaultRobot_34
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 581
+        width: 62
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 961568bb509625f4a920584f1a272872
+      internalID: -739099869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AssaultRobot_35
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 581
+        width: 61
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bed857dbc7db3094ab5e44f00ecafa90
+      internalID: -962211575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AssaultRobot_36
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 581
+        width: 55
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3794c4cb82a1d9d43b88d00ad6347807
+      internalID: -1435748563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AssaultRobot_37
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 589
+        width: 51
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1fc390aab570ed248b3f9b1c1de3a0e8
+      internalID: 1301828047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AssaultRobot_38
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 581
+        width: 42
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95e2b8773ce0e3941888d91916f42e98
+      internalID: -255498846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AssaultRobot_39
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 597
+        width: 42
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 522124c8821c66548b0d16dd15a1bf1d
+      internalID: 321143800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AssaultRobot_40
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 593
+        width: 36
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 217c47272e476ed4788e3e37f169f01c
+      internalID: 1658568380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AssaultRobot_41
+      rect:
+        serializedVersion: 2
+        x: 382
+        y: 593
+        width: 36
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 387b7ffe84f1c3946881b24abd369cda
+      internalID: 1394935610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AssaultRobot_42
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 597
+        width: 42
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9d0b9f31eff8ec4b8dfa8ac653541d1
+      internalID: -490042977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AssaultRobot_43
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 581
+        width: 42
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b395a3dca8e4d94438284276fa77ed3a
+      internalID: -838856603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AssaultRobot_44
+      rect:
+        serializedVersion: 2
+        x: 508
+        y: 589
+        width: 51
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bbed19a02dbe474881b7a14ccafd494
+      internalID: 268574574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AssaultRobot_45
+      rect:
+        serializedVersion: 2
+        x: 561
+        y: 581
+        width: 55
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efa52efe313793d4bbb16b47d0935dbe
+      internalID: 73421775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AssaultRobot_46
+      rect:
+        serializedVersion: 2
+        x: 618
+        y: 581
+        width: 61
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 592fd8a2380954347a5c6d567264b434
+      internalID: -1675576882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AssaultRobot_47
+      rect:
+        serializedVersion: 2
+        x: 681
+        y: 581
+        width: 62
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5084ae43a84c8446973690e6976f472
+      internalID: -1251961635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AssaultRobot_48
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 581
+        width: 32
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbd35b8f44a235543be56213c9a31439
+      internalID: 1142278339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AssaultRobot_49
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 581
+        width: 32
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c8639319b40aea478787220b10b92dd
+      internalID: -251472991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AssaultRobot_50
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 581
+        width: 32
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12535b6fcbb5f23448ee134952333bab
+      internalID: 1184256032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AssaultRobot_51
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 581
+        width: 32
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad8be360992bfb14788ad2756ef507bc
+      internalID: 131815566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AssaultRobot_52
+      rect:
+        serializedVersion: 2
+        x: 421
+        y: 581
+        width: 32
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec946ec9dc63f2d449a451af898c3cde
+      internalID: 549218935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AssaultRobot_53
+      rect:
+        serializedVersion: 2
+        x: 523
+        y: 581
+        width: 32
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f0b405af74a9a246bbea80556d700db
+      internalID: 866027070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AssaultRobot_54
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 506
+        width: 37
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 373f99e9528be8d4ab73586fd47ff383
+      internalID: -429160195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AssaultRobot_55
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 506
+        width: 34
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae5cb2ce6772b124a98b339db783a4f6
+      internalID: 1709468669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AssaultRobot_56
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 506
+        width: 45
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27936d47db2fc2941866663ef0e99510
+      internalID: 1333247629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AssaultRobot_57
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 506
+        width: 51
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b05bb72c25c2ffa4cafbc24f6c7bf4d1
+      internalID: 12000215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AssaultRobot_58
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 506
+        width: 50
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee35e40d20174f449a49f607bb8672e0
+      internalID: -857631502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AssaultRobot_59
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 506
+        width: 43
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6da45f21c3ae69849b224c9648a30f43
+      internalID: 1562712035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AssaultRobot_60
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 506
+        width: 50
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 361803aad2de5754e852f3ae179bf9f9
+      internalID: 1895834189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AssaultRobot_61
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 506
+        width: 50
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77a8a65f429375e40b650bc24905ea49
+      internalID: -280528989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AssaultRobot_62
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 506
+        width: 43
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44b3e8250f6c5794c9a885053904f315
+      internalID: -1601730917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AssaultRobot_63
+      rect:
+        serializedVersion: 2
+        x: 475
+        y: 506
+        width: 50
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ee85acf8ce492249a33f98a4b79e6df
+      internalID: 448011812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AssaultRobot_64
+      rect:
+        serializedVersion: 2
+        x: 527
+        y: 506
+        width: 51
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6666a495dbc89f24a973f807673309d3
+      internalID: -1549951361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AssaultRobot_65
+      rect:
+        serializedVersion: 2
+        x: 580
+        y: 506
+        width: 45
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb04734c065e032478a8142cd52f762d
+      internalID: -276307155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AssaultRobot_66
+      rect:
+        serializedVersion: 2
+        x: 627
+        y: 506
+        width: 34
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d2d44c39b06d9c4c96f21a388a3b5ad
+      internalID: -1775083816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AssaultRobot_67
+      rect:
+        serializedVersion: 2
+        x: 663
+        y: 506
+        width: 37
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ef988576166f6f4094ada80849e779c
+      internalID: 27858272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AssaultRobot_68
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 443
+        width: 45
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11786bbdc12ca43448e4d6715333507f
+      internalID: -1958482688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AssaultRobot_69
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 443
+        width: 44
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbf8cf1deb75d7a48ab34c620481f921
+      internalID: -704559903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AssaultRobot_70
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 443
+        width: 49
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bf9d30e32a13db488779b629a07d403
+      internalID: -1502005350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AssaultRobot_71
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 443
+        width: 37
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b85a2edb2ade9474888a2ef5968286f9
+      internalID: 1789141668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AssaultRobot_72
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 443
+        width: 37
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa5283125f21c7845a5c9527ec7e4872
+      internalID: -1497319880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AssaultRobot_73
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 443
+        width: 32
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5cbd312945d9f7444b2b2d9a4dd21b88
+      internalID: 38395381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AssaultRobot_74
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 443
+        width: 37
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 470699e64c4b0654eae74aabb2d55fb0
+      internalID: -1624055139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AssaultRobot_75
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 443
+        width: 37
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 311c2657ef934ff48a3962dc1921cbf2
+      internalID: 717397032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AssaultRobot_76
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 443
+        width: 32
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a63613e29a4f5f2489704fc9cfcac712
+      internalID: -1144937449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AssaultRobot_77
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 443
+        width: 37
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f90f0a2b2f24f3489320a1faea11295
+      internalID: -927966437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AssaultRobot_78
+      rect:
+        serializedVersion: 2
+        x: 489
+        y: 443
+        width: 37
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d90bc9446fd70d4a87f269a2c04fb1f
+      internalID: -81655712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AssaultRobot_79
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 443
+        width: 49
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99fef757b3a6c8842bf9d7477419c60b
+      internalID: 1780988803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AssaultRobot_80
+      rect:
+        serializedVersion: 2
+        x: 579
+        y: 443
+        width: 44
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 036c701b5c4275543937b5a06d1f8fe5
+      internalID: -1318834580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AssaultRobot_81
+      rect:
+        serializedVersion: 2
+        x: 625
+        y: 443
+        width: 45
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35c80a893915ca243a738b3e19617484
+      internalID: 531133722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AssaultRobot_82
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 384
+        width: 37
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e02a87b642745ba438a4bf95cee1715b
+      internalID: 731281337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AssaultRobot_83
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 384
+        width: 34
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9cef3dd1b54c62842a9a246058b5f7ce
+      internalID: 1290809761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AssaultRobot_84
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 384
+        width: 45
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19aa12b3d176bf940aab19f0481ba4bb
+      internalID: 1971942756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AssaultRobot_85
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 384
+        width: 52
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47e539703910c744e86122f3842c13fe
+      internalID: 1721358217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AssaultRobot_86
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 384
+        width: 52
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 689dc5c7083588a45ab55fd80f10275f
+      internalID: 317974855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AssaultRobot_87
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 384
+        width: 45
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fcd2012491e2b5f40a2086f707d043ee
+      internalID: -142716870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AssaultRobot_88
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 384
+        width: 34
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4cf350acd37fb384ba5e22f8d27608cd
+      internalID: 1938067627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AssaultRobot_89
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 384
+        width: 37
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbe8730af90a1264d8b5adc2f80b2aa4
+      internalID: -1935397498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AssaultRobot_90
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 320
+        width: 35
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3434eca594add1f4395342b75e1af003
+      internalID: -1445191964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AssaultRobot_91
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 320
+        width: 34
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f47f03391bad2ee489ea20e78de2c2e3
+      internalID: -1567097038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AssaultRobot_92
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 320
+        width: 34
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7588c0016aaad14589f6e8898e85625
+      internalID: 182137070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AssaultRobot_93
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 320
+        width: 35
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 293d3dd976505c64ebf341f5a4d4d551
+      internalID: -1128050591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AssaultRobot_94
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 309
+        width: 25
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09050eb885a6ea242b7ab1e76162b87d
+      internalID: 806883844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AssaultRobot_95
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 310
+        width: 21
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c92c86cf3c7b8614c809253507f19b32
+      internalID: 1892482899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AssaultRobot_96
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 310
+        width: 19
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 917f783940b3d9f43af2a55b25f444b2
+      internalID: 239879236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AssaultRobot_97
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 310
+        width: 17
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af9ac4d3d7b92c8458cb5d0c9cc870bc
+      internalID: 1471782663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AssaultRobot_98
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 311
+        width: 16
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 393375f0db7847046ae9fcaf8ccdcd32
+      internalID: -452382500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AssaultRobot_99
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 254
+        width: 109
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c1637072a51d164babc4d5c163f07bb
+      internalID: 864907017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AssaultRobot_100
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 311
+        width: 61
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f3796b59a0ff4247b44fad53fc6728a
+      internalID: 1107331893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AssaultRobot_101
+      rect:
+        serializedVersion: 2
+        x: 474
+        y: 310
+        width: 17
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae1ae18e03cd04847a7c014b0a2be584
+      internalID: 366147977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AssaultRobot_102
+      rect:
+        serializedVersion: 2
+        x: 493
+        y: 310
+        width: 19
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5cd60f464e027824993b95ffbbcabf33
+      internalID: 328409955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AssaultRobot_103
+      rect:
+        serializedVersion: 2
+        x: 514
+        y: 310
+        width: 21
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 038259f679a8aa140a8dd8aea0c8b4c1
+      internalID: -1864945067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AssaultRobot_104
+      rect:
+        serializedVersion: 2
+        x: 537
+        y: 309
+        width: 25
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 576a92be61a20d54880ef09a3c638be9
+      internalID: -31849004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AssaultRobot_105
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 254
+        width: 35
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5205e15263f6d4e438c478e1c61aecb8
+      internalID: 359847972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AssaultRobot_106
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 254
+        width: 36
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b921a55c24fb96e4ab88d6db218aa5b0
+      internalID: 514310389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AssaultRobot_107
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 254
+        width: 39
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7be3bffaedafe9d43931b2b5c6e9f284
+      internalID: 381026678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AssaultRobot_108
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 254
+        width: 36
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 968e894e59e7e834aa3f1eb783589156
+      internalID: 1861446618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AssaultRobot_109
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 254
+        width: 36
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4110922b366669746ae30c26b412abb2
+      internalID: -3875150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AssaultRobot_110
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 254
+        width: 36
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31eff5aaebc06b0409008d0fefc5f68a
+      internalID: 922695583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AssaultRobot_111
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 254
+        width: 35
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 818253c88d982bd43895cb7d3d4ca3e7
+      internalID: 1116216020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AssaultRobot_112
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 254
+        width: 23
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7cb426db4f58e54dbb3fe023cf56a59
+      internalID: 1156694267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AssaultRobot_113
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 254
+        width: 35
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35b2d3381f9d5bb448fd3ae5dba15c78
+      internalID: 1841977919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AssaultRobot_114
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 254
+        width: 36
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82b8c919ed963914cbb4e7fc45f8891e
+      internalID: 488559790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AssaultRobot_115
+      rect:
+        serializedVersion: 2
+        x: 477
+        y: 254
+        width: 36
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 735f8f08b3dd2ad4ea63842bd21b884c
+      internalID: 412979627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AssaultRobot_116
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 254
+        width: 36
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24550c09c7b3ba6429f996e69ba84606
+      internalID: 1173979125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AssaultRobot_117
+      rect:
+        serializedVersion: 2
+        x: 553
+        y: 254
+        width: 39
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bc708bce6a27e241a524151091776f9
+      internalID: -1733902896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AssaultRobot_118
+      rect:
+        serializedVersion: 2
+        x: 594
+        y: 254
+        width: 36
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0b40979847d707438248e96067fc210
+      internalID: -1640578436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AssaultRobot_119
+      rect:
+        serializedVersion: 2
+        x: 632
+        y: 254
+        width: 35
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1bb338ba8e68a8b42bb3edaf818e27df
+      internalID: -1882129953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AssaultRobot_120
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 235
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf0466d7021fd1c4fa288cf9100b2ec8
+      internalID: -1835679050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AssaultRobot_121
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 242
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: baf91d926d9c6d643a878e56249f9892
+      internalID: 1099401100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AssaultRobot_122
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 232
+        width: 8
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6733a9972631bca49b9a1c27f8f782a9
+      internalID: -560990626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AssaultRobot_123
+      rect:
+        serializedVersion: 2
+        x: 535
+        y: 232
+        width: 8
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5916a8b80e5513c49811779d916f6260
+      internalID: -1060163139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AssaultRobot_124
+      rect:
+        serializedVersion: 2
+        x: 617
+        y: 242
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d03b45982561216488eeac69aa481e22
+      internalID: -316719391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AssaultRobot_125
+      rect:
+        serializedVersion: 2
+        x: 632
+        y: 235
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0d362da61b420043a9c619b9d41c388
+      internalID: 1805660681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AssaultRobot_126
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 234
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec0236e2fa881dc40b50626348e85170
+      internalID: 1154217653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AssaultRobot_127
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 187
+        width: 45
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 961054bc483a196448ffa0ac8f19638b
+      internalID: 719701309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AssaultRobot_128
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 187
+        width: 45
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 457c91d5b6de26c43a977f5135b836c8
+      internalID: -742163693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AssaultRobot_129
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 234
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ec0d709606563f44a381a122bf7a1bc
+      internalID: 906143098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AssaultRobot_130
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 215
+        width: 17
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a20bbec3f94f8ee44aff6fa925edc34d
+      internalID: -1331956661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AssaultRobot_131
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 223
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8697cb642bc7ee42a8a05d95134ea7c
+      internalID: 915094567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AssaultRobot_132
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 217
+        width: 25
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ed08a13e76daf74c9b9ce7579083f7a
+      internalID: 26690571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AssaultRobot_133
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 211
+        width: 15
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7826b368bf6b67f4c8368d5bdc61834d
+      internalID: -48758159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AssaultRobot_134
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 222
+        width: 16
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56b8397a5b8ff3f419bf6f7d1bbaf97f
+      internalID: 1149606816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AssaultRobot_135
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 197
+        width: 51
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0b1083e298509b4381f8424f66720bc
+      internalID: 1011617240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AssaultRobot_136
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 223
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0b445412df2c124da3112da67de70b7
+      internalID: -1162245271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AssaultRobot_137
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 223
+        width: 13
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f670691bfd7450c479a7eea04084aa7e
+      internalID: 1475924251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AssaultRobot_138
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 212
+        width: 22
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1905f980f5917994fa4edb3312fb1a79
+      internalID: 1203157776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AssaultRobot_139
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 180
+        width: 45
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7978d29e65810934ab6c0f822f51431a
+      internalID: 2025107573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AssaultRobot_140
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 180
+        width: 45
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 964014d8478a679489418e0370bca943
+      internalID: -548967882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AssaultRobot_141
+      rect:
+        serializedVersion: 2
+        x: 474
+        y: 212
+        width: 22
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 123d8fdfc9622164086ac01877c3bfdf
+      internalID: 1305676846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AssaultRobot_142
+      rect:
+        serializedVersion: 2
+        x: 498
+        y: 223
+        width: 13
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 536d771faa0484a49a74b25069f7e079
+      internalID: 1690814440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AssaultRobot_143
+      rect:
+        serializedVersion: 2
+        x: 513
+        y: 197
+        width: 51
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65b0ab951953a244f8b786e0152fd2f1
+      internalID: -846260147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AssaultRobot_144
+      rect:
+        serializedVersion: 2
+        x: 558
+        y: 223
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebd53b50ebc2f62488fbf046fad439f5
+      internalID: 1385839199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AssaultRobot_145
+      rect:
+        serializedVersion: 2
+        x: 569
+        y: 222
+        width: 16
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9a50cdb1f23fc34c9374cd8608d6e80
+      internalID: 1582134951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AssaultRobot_146
+      rect:
+        serializedVersion: 2
+        x: 590
+        y: 211
+        width: 15
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7027d163ae5d8b8409f15757c99860b8
+      internalID: 1289932181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AssaultRobot_147
+      rect:
+        serializedVersion: 2
+        x: 606
+        y: 217
+        width: 25
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3db343fb909ab434fb2999806d74f949
+      internalID: -410382957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AssaultRobot_148
+      rect:
+        serializedVersion: 2
+        x: 633
+        y: 223
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebe4a55857989eb4b9108fb2b3ad6d99
+      internalID: -1566648953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AssaultRobot_149
+      rect:
+        serializedVersion: 2
+        x: 669
+        y: 215
+        width: 17
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01464e8ec5f29984f81a4afa6d93cad2
+      internalID: 1220749601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AssaultRobot_150
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 191
+        width: 23
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 418f408febd72284b8535503d32128d3
+      internalID: -759988456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AssaultRobot_151
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 187
+        width: 11
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8bf94cd2c5f94846bf16f92a53d7801
+      internalID: 2061535594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AssaultRobot_152
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 210
+        width: 16
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89de5cf9bf7158941b9bc4ea76ea3e3b
+      internalID: 23584313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AssaultRobot_153
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 212
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50a2fde6399c7204cad189fe246d7ae0
+      internalID: -1045921908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AssaultRobot_154
+      rect:
+        serializedVersion: 2
+        x: 508
+        y: 212
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1925c011763b82c488ef7d8125806e46
+      internalID: 2065418976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AssaultRobot_155
+      rect:
+        serializedVersion: 2
+        x: 564
+        y: 210
+        width: 16
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29ecc19ff3e588b44b7c956489c35457
+      internalID: -1164736967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AssaultRobot_156
+      rect:
+        serializedVersion: 2
+        x: 633
+        y: 187
+        width: 11
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d3bb5abf7fe5e54aadb6d508c25b382
+      internalID: -1224903982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AssaultRobot_157
+      rect:
+        serializedVersion: 2
+        x: 642
+        y: 191
+        width: 23
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d23d0676aba6ca41b5c104cc5c71c61
+      internalID: -202893276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AssaultRobot_158
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 199
+        width: 16
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0534f28c565c2f541aece605a40d335e
+      internalID: 701897690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AssaultRobot_159
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 203
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87c529ff836011c48b5f680583da37ae
+      internalID: -999091200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AssaultRobot_160
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 184
+        width: 12
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb0880860020b6144be8e6e88ee95e5b
+      internalID: 884175151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AssaultRobot_161
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 180
+        width: 12
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2501996a2038d934ea60a95833997a79
+      internalID: 1156609117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AssaultRobot_162
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 180
+        width: 12
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f087d3efb21303b4f95f2051f94714ea
+      internalID: 69960692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AssaultRobot_163
+      rect:
+        serializedVersion: 2
+        x: 534
+        y: 184
+        width: 12
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3015dbcc744a3345a21a92d4b9b85c9
+      internalID: 670931162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AssaultRobot_164
+      rect:
+        serializedVersion: 2
+        x: 593
+        y: 203
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d0714f974f85d648a8e6434e8a41eb3
+      internalID: 1824695478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AssaultRobot_165
+      rect:
+        serializedVersion: 2
+        x: 666
+        y: 199
+        width: 16
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e8b71f64d247c74cb6654428258498a
+      internalID: -1217931234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AssaultRobot_166
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 171
+        width: 32
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0b14e753d1c96a44bb92438698567a3
+      internalID: 1090374365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AssaultRobot_167
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 171
+        width: 32
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a1c4f6e871f97e4db644da466e3c30a
+      internalID: -2015230028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AssaultRobot_168
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 171
+        width: 32
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f270b8ddade13c047b9f2822ae2dff5f
+      internalID: -1056604352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AssaultRobot_169
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 152
+        width: 32
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87dcf1edf4df14e469449ea393ebcef6
+      internalID: 611358688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AssaultRobot_170
+      rect:
+        serializedVersion: 2
+        x: 381
+        y: 152
+        width: 32
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90a9f75e296743f4ea8d35b34949b2b9
+      internalID: -1091565563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AssaultRobot_171
+      rect:
+        serializedVersion: 2
+        x: 445
+        y: 171
+        width: 32
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3efc2a61b3a1c9d46be64b8411c306dd
+      internalID: -1789878173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AssaultRobot_172
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 171
+        width: 32
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee2721d01333a7b48b546940f0b8c37f
+      internalID: 1017548904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AssaultRobot_173
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 171
+        width: 32
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41e9cef711fa4a54e8778cd22dfeef92
+      internalID: 878309057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AssaultRobot_174
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 123
+        width: 11
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03925ec15d77510428c65933094aafd8
+      internalID: -1366381545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AssaultRobot_175
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 138
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1953bb79a3197f545843a72c874c7a04
+      internalID: -1470688034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AssaultRobot_176
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 102
+        width: 28
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e546515afa90f77479c04f79761e66bc
+      internalID: 777744701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AssaultRobot_177
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 137
+        width: 9
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52a9f98212fcd3442bd63a035deaf3a8
+      internalID: -400242785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AssaultRobot_178
+      rect:
+        serializedVersion: 2
+        x: 427
+        y: 137
+        width: 9
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 431a5cd442d46c54e9b7a52233cb40f1
+      internalID: -1025659979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AssaultRobot_179
+      rect:
+        serializedVersion: 2
+        x: 514
+        y: 102
+        width: 28
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04d0b7e7b1affa94fa7f229cea03a11c
+      internalID: 469003358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AssaultRobot_180
+      rect:
+        serializedVersion: 2
+        x: 546
+        y: 138
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ae0a712fec422548af7465196a0bcc8
+      internalID: -1693131563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AssaultRobot_181
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 123
+        width: 11
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 170e514844feef94ba9e19db15b1b3a2
+      internalID: 418006247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AssaultRobot_182
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 111
+        width: 16
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ab2e71814c65c442ae35bf918a23b35
+      internalID: -277295545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AssaultRobot_183
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 119
+        width: 25
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 085278d16fae4b442bc27a9dfc43bc3c
+      internalID: 398014483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AssaultRobot_184
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 112
+        width: 15
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 450eca63c85489945acca82182c5a98b
+      internalID: -1687654527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AssaultRobot_185
+      rect:
+        serializedVersion: 2
+        x: 371
+        y: 102
+        width: 22
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34edf1331789e6e488d17480a185a915
+      internalID: 388435460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AssaultRobot_186
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 119
+        width: 25
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a240286697b6f394a862bdaf35005cee
+      internalID: -1143138238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AssaultRobot_187
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 111
+        width: 16
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a59a015747c8d1d40833f65e288da293
+      internalID: -276175148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AssaultRobot_188
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 84
+        width: 63
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 347f23c56d5159c49910e1a31e880286
+      internalID: 1431699189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AssaultRobot_189
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 86
+        width: 17
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a755e14e2bd7bb4da8553646f83ae02
+      internalID: -1261650031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AssaultRobot_190
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 87
+        width: 25
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05d72dd348d72844eae92aa710e4dbb1
+      internalID: 999151139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AssaultRobot_191
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 84
+        width: 41
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a3e3c4e74124114ba41e5b4e545f8cf
+      internalID: 1671879638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AssaultRobot_192
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 96
+        width: 12
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60cc9a68e73ecee439c0090d9a6e7ffe
+      internalID: 271745710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AssaultRobot_193
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 97
+        width: 16
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85ebc3f8e14eead49983fde28be79a18
+      internalID: -235901581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AssaultRobot_194
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 94
+        width: 23
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31e33ccbe8ccfe541b0a7ad9edaff3cf
+      internalID: 1553726554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AssaultRobot_195
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 94
+        width: 13
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2eaf6064cc30788448fc7792c747beba
+      internalID: 197693966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AssaultRobot_196
+      rect:
+        serializedVersion: 2
+        x: 428
+        y: 94
+        width: 13
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b45c6162e1e8afc45b93ce65a6ae9a39
+      internalID: -1235610270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AssaultRobot_197
+      rect:
+        serializedVersion: 2
+        x: 437
+        y: 94
+        width: 23
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f63e8f0e19cd3554cbdd1a02130fb672
+      internalID: -1154544625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AssaultRobot_198
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 97
+        width: 16
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5dfa04fcb705294b83a8fb4b0c66883
+      internalID: 619295666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AssaultRobot_199
+      rect:
+        serializedVersion: 2
+        x: 498
+        y: 96
+        width: 12
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9aa407b4fac562449b0c0d8171628cc
+      internalID: 376911415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AssaultRobot_200
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 84
+        width: 41
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0d1ccd9e16e8ef41b3c0ff9c11d9a2d
+      internalID: -167522637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AssaultRobot_201
+      rect:
+        serializedVersion: 2
+        x: 587
+        y: 87
+        width: 25
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 688b396690a4337479f77e0ea5ae86dc
+      internalID: -1791916346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AssaultRobot_202
+      rect:
+        serializedVersion: 2
+        x: 620
+        y: 86
+        width: 17
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c793acce4920064fa401d7103063d98
+      internalID: 400493173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AssaultRobot_203
+      rect:
+        serializedVersion: 2
+        x: 642
+        y: 84
+        width: 63
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c6e53784e684184e8d11071a4fefe1d
+      internalID: -1328771390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AssaultRobot_204
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 86
+        width: 24
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9c3280f0e1137a4bba436d927443d57
+      internalID: 1958186383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AssaultRobot_205
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 84
+        width: 32
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb2d6b02c6e5df9428e4bc69097a93f1
+      internalID: -1610252063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AssaultRobot_206
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 84
+        width: 32
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da0feaaae9a19804ab2db1c044e6208a
+      internalID: 1804728153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AssaultRobot_207
+      rect:
+        serializedVersion: 2
+        x: 711
+        y: 86
+        width: 24
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 310d38b4ab16f404582db572baf06fcd
+      internalID: 651360727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AssaultRobot_208
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 50
+        width: 28
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b818a97074427e642bfbc575951d1a0b
+      internalID: -882576757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AssaultRobot_209
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 47
+        width: 29
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 258fd1c8ab99a60498d2f61f528f1a82
+      internalID: -1483485024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AssaultRobot_210
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 47
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abeb95758e6b87b47adc4fa231c2fce6
+      internalID: 1744846946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AssaultRobot_211
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 44
+        width: 41
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6778560b66a15bc4295eaa79d2e08dd9
+      internalID: 1580816911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AssaultRobot_212
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 59
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a155fb8c55611d34da8696ef6ea5091d
+      internalID: -919180008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AssaultRobot_213
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 53
+        width: 29
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 289fcb2b66b737341bee61ff11adf940
+      internalID: -1615283000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AssaultRobot_214
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 51
+        width: 19
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b61ec04edd98d714c8c6604c5ea12b70
+      internalID: -219589717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AssaultRobot_215
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 51
+        width: 19
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3394fe6f8a4079498db2233ad84134f
+      internalID: -144434486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AssaultRobot_216
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 53
+        width: 29
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45d27991eff55ea4fb4a3fb15562567d
+      internalID: 1473747900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AssaultRobot_217
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 44
+        width: 41
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0bdeeba18c856c4bb62f205aa61be4c
+      internalID: -626755385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AssaultRobot_218
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 59
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf545233b61e84545853acd9d299bbc8
+      internalID: -1752097461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AssaultRobot_219
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 47
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0750082ce05c27f4e9c879533d0f6196
+      internalID: 1156131595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AssaultRobot_220
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 47
+        width: 29
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a4261a442999394d9e09c1c2b139ede
+      internalID: -845487391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AssaultRobot_221
+      rect:
+        serializedVersion: 2
+        x: 648
+        y: 50
+        width: 28
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e93177816e820e64dbcb63558ba6b50b
+      internalID: 143902465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AssaultRobot_222
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 47
+        width: 23
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a585e918262c5824a9c817faebb5b32b
+      internalID: 2138057500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AssaultRobot_223
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 44
+        width: 41
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83451c82c7d2663448af907770256f54
+      internalID: 1390283671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AssaultRobot_224
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 47
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4378da9e0b29ed642a4b61355f8f92b5
+      internalID: 771000731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AssaultRobot_225
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 47
+        width: 23
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92569fe3771984b499a050f99de25938
+      internalID: -1709763618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AssaultRobot_226
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 44
+        width: 41
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5957de403e9361e41907522d2386dc86
+      internalID: 1444331437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AssaultRobot_227
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 48
+        width: 23
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d3eb7dfab8bc8b4aa656e003a5c346e
+      internalID: 265490437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AssaultRobot_228
+      rect:
+        serializedVersion: 2
+        x: 476
+        y: 48
+        width: 23
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97083a9dc08ef824ea7d752aa8a34821
+      internalID: -1182647947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AssaultRobot_229
+      rect:
+        serializedVersion: 2
+        x: 551
+        y: 44
+        width: 41
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab97df0755094f840b7eace572101b9a
+      internalID: -1093001752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AssaultRobot_230
+      rect:
+        serializedVersion: 2
+        x: 603
+        y: 47
+        width: 23
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95f681d035b9fff4a9e4b42629de38c2
+      internalID: 665761126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AssaultRobot_231
+      rect:
+        serializedVersion: 2
+        x: 627
+        y: 47
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f97ffd59efb448549b4d6b876fcb7226
+      internalID: 374800134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AssaultRobot_232
+      rect:
+        serializedVersion: 2
+        x: 678
+        y: 44
+        width: 41
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 610240fcafac80a4da7e3a9eb94bca7d
+      internalID: 1783896830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AssaultRobot_233
+      rect:
+        serializedVersion: 2
+        x: 730
+        y: 47
+        width: 23
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 711b3b32cc087504bb019d0da53aa303
+      internalID: -760266662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AssaultRobot_234
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 13
+        width: 23
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac6fb60c3d1a9424797b1d022d732178
+      internalID: 335450128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AssaultRobot_235
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 10
+        width: 41
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee9e3d798a5283e47b612fc73c49954c
+      internalID: 96865694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AssaultRobot_236
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 13
+        width: 23
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96df8e9ade7bbb8468d0e0644f350d0c
+      internalID: 671160114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AssaultRobot_237
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 14
+        width: 6
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 532cd99d81d21c646a893f78cb5add03
+      internalID: -52939093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AssaultRobot_238
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 13
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad8f30c6df5fe6c46bd30c4dd7794f0e
+      internalID: 1692725228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AssaultRobot_239
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 13
+        width: 23
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22a383c2a68d49543b66fb527f0fccb7
+      internalID: -1781801808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AssaultRobot_240
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 10
+        width: 41
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4f8e4b779a2b6449ad3c81ee385f26a
+      internalID: -1027780745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AssaultRobot_241
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 13
+        width: 30
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1108aac08188b5a40a8eec480f262953
+      internalID: 1139634269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AssaultRobot_242
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 13
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a0d546bbc2b2574592fd464628b11d1
+      internalID: -1273621524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AssaultRobot_243
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 13
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b892554e89583543a951b3a2bcd22c9
+      internalID: 451429256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AssaultRobot_244
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 13
+        width: 30
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 315a0bbc48bad1d47b2e49eb95f1bf81
+      internalID: -321659719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AssaultRobot_245
+      rect:
+        serializedVersion: 2
+        x: 429
+        y: 10
+        width: 41
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0b58529a7b0e6e4991fc2b36570016f
+      internalID: 1305073371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AssaultRobot_246
+      rect:
+        serializedVersion: 2
+        x: 481
+        y: 13
+        width: 23
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8b02ea6117fd3e4ca46f54e1e6fb266
+      internalID: 516972426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AssaultRobot_247
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 13
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed566c4ef9bd3224ea53bb7cb32e6dd1
+      internalID: 714348436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AssaultRobot_248
+      rect:
+        serializedVersion: 2
+        x: 531
+        y: 14
+        width: 6
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed043a15b6096bf41ad8e130687186e8
+      internalID: -2047256882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AssaultRobot_249
+      rect:
+        serializedVersion: 2
+        x: 538
+        y: 13
+        width: 23
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3f2ee8679b47aa46a4439474d5cb2a1
+      internalID: -2101310972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AssaultRobot_250
+      rect:
+        serializedVersion: 2
+        x: 562
+        y: 10
+        width: 41
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90285237ddd37de498f9a0a50fc68253
+      internalID: -2146375683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AssaultRobot_251
+      rect:
+        serializedVersion: 2
+        x: 614
+        y: 13
+        width: 23
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e269d17da238f340829ef45f06d7ef5
+      internalID: 1030438958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AssaultRobot_252
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 1
+        width: 14
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51cf85f44884ce845907a6d45605067b
+      internalID: 901802577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AssaultRobot_253
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 1
+        width: 14
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5d9792d85ec3f147ad7c324f82bf414
+      internalID: 171633384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      AssaultRobot_70: -1502005350
+      AssaultRobot_130: -1331956661
+      AssaultRobot_64: -1549951361
+      AssaultRobot_193: -235901581
+      AssaultRobot_136: -1162245271
+      AssaultRobot_158: 701897690
+      AssaultRobot_127: 719701309
+      AssaultRobot_125: 1805660681
+      AssaultRobot_23: -1001411016
+      AssaultRobot_17: -1205466353
+      AssaultRobot_72: -1497319880
+      AssaultRobot_92: 182137070
+      AssaultRobot_226: 1444331437
+      AssaultRobot_60: 1895834189
+      AssaultRobot_107: 381026678
+      AssaultRobot_66: -1775083816
+      AssaultRobot_50: 1184256032
+      AssaultRobot_97: 1471782663
+      AssaultRobot_164: 1824695478
+      AssaultRobot_133: -48758159
+      AssaultRobot_169: 611358688
+      AssaultRobot_239: -1781801808
+      AssaultRobot_75: 717397032
+      AssaultRobot_252: 901802577
+      AssaultRobot_46: -1675576882
+      AssaultRobot_117: -1733902896
+      AssaultRobot_111: 1116216020
+      AssaultRobot_124: -316719391
+      AssaultRobot_32: -431129846
+      AssaultRobot_140: -548967882
+      AssaultRobot_179: 469003358
+      AssaultRobot_13: -1301797168
+      AssaultRobot_49: -251472991
+      AssaultRobot_172: 1017548904
+      AssaultRobot_47: -1251961635
+      AssaultRobot_134: 1149606816
+      AssaultRobot_142: 1690814440
+      AssaultRobot_214: -219589717
+      AssaultRobot_216: 1473747900
+      AssaultRobot_212: -919180008
+      AssaultRobot_245: 1305073371
+      AssaultRobot_174: -1366381545
+      AssaultRobot_187: -276175148
+      AssaultRobot_71: 1789141668
+      AssaultRobot_15: -1718809185
+      AssaultRobot_87: -142716870
+      AssaultRobot_160: 884175151
+      AssaultRobot_221: 143902465
+      AssaultRobot_188: 1431699189
+      AssaultRobot_27: 601730049
+      AssaultRobot_167: -2015230028
+      AssaultRobot_68: -1958482688
+      AssaultRobot_180: -1693131563
+      AssaultRobot_202: 400493173
+      AssaultRobot_106: 514310389
+      AssaultRobot_122: -560990626
+      AssaultRobot_110: 922695583
+      AssaultRobot_152: 23584313
+      AssaultRobot_95: 1892482899
+      AssaultRobot_81: 531133722
+      AssaultRobot_40: 1658568380
+      AssaultRobot_36: -1435748563
+      AssaultRobot_123: -1060163139
+      AssaultRobot_213: -1615283000
+      AssaultRobot_9: -867475975
+      AssaultRobot_159: -999091200
+      AssaultRobot_84: 1971942756
+      AssaultRobot_18: -696667619
+      AssaultRobot_90: -1445191964
+      AssaultRobot_29: -1596735332
+      AssaultRobot_57: 12000215
+      AssaultRobot_195: 197693966
+      AssaultRobot_42: -490042977
+      AssaultRobot_181: 418006247
+      AssaultRobot_173: 878309057
+      AssaultRobot_218: -1752097461
+      AssaultRobot_207: 651360727
+      AssaultRobot_11: -1947891224
+      AssaultRobot_168: -1056604352
+      AssaultRobot_20: 732191993
+      AssaultRobot_211: 1580816911
+      AssaultRobot_41: 1394935610
+      AssaultRobot_103: -1864945067
+      AssaultRobot_209: -1483485024
+      AssaultRobot_98: -452382500
+      AssaultRobot_48: 1142278339
+      AssaultRobot_191: 1671879638
+      AssaultRobot_150: -759988456
+      AssaultRobot_220: -845487391
+      AssaultRobot_96: 239879236
+      AssaultRobot_157: -202893276
+      AssaultRobot_65: -276307155
+      AssaultRobot_118: -1640578436
+      AssaultRobot_153: -1045921908
+      AssaultRobot_5: -760924088
+      AssaultRobot_56: 1333247629
+      AssaultRobot_119: -1882129953
+      AssaultRobot_91: -1567097038
+      AssaultRobot_139: 2025107573
+      AssaultRobot_229: -1093001752
+      AssaultRobot_135: 1011617240
+      AssaultRobot_156: -1224903982
+      AssaultRobot_236: 671160114
+      AssaultRobot_59: 1562712035
+      AssaultRobot_85: 1721358217
+      AssaultRobot_198: 619295666
+      AssaultRobot_206: 1804728153
+      AssaultRobot_80: -1318834580
+      AssaultRobot_108: 1861446618
+      AssaultRobot_244: -321659719
+      AssaultRobot_26: 211772849
+      AssaultRobot_89: -1935397498
+      AssaultRobot_21: -62723237
+      AssaultRobot_69: -704559903
+      AssaultRobot_102: 328409955
+      AssaultRobot_217: -626755385
+      AssaultRobot_240: -1027780745
+      AssaultRobot_86: 317974855
+      AssaultRobot_33: -925275627
+      AssaultRobot_131: 915094567
+      AssaultRobot_201: -1791916346
+      AssaultRobot_176: 777744701
+      AssaultRobot_83: 1290809761
+      AssaultRobot_116: 1173979125
+      AssaultRobot_146: 1289932181
+      AssaultRobot_242: -1273621524
+      AssaultRobot_38: -255498846
+      AssaultRobot_25: -628178781
+      AssaultRobot_104: -31849004
+      AssaultRobot_247: 714348436
+      AssaultRobot_166: 1090374365
+      AssaultRobot_177: -400242785
+      AssaultRobot_151: 2061535594
+      AssaultRobot_115: 412979627
+      AssaultRobot_19: 1663947744
+      AssaultRobot_243: 451429256
+      AssaultRobot_190: 999151139
+      AssaultRobot_132: 26690571
+      AssaultRobot_109: -3875150
+      AssaultRobot_163: 670931162
+      AssaultRobot_224: 771000731
+      AssaultRobot_128: -742163693
+      AssaultRobot_248: -2047256882
+      AssaultRobot_141: 1305676846
+      AssaultRobot_222: 2138057500
+      AssaultRobot_31: -1561198351
+      AssaultRobot_238: 1692725228
+      AssaultRobot_192: 271745710
+      AssaultRobot_6: 205239472
+      AssaultRobot_35: -962211575
+      AssaultRobot_30: -1006923876
+      AssaultRobot_121: 1099401100
+      AssaultRobot_12: 91137644
+      AssaultRobot_225: -1709763618
+      AssaultRobot_24: 806462082
+      AssaultRobot_34: -739099869
+      AssaultRobot_61: -280528989
+      AssaultRobot_55: 1709468669
+      AssaultRobot_82: 731281337
+      AssaultRobot_147: -410382957
+      AssaultRobot_219: 1156131595
+      AssaultRobot_233: -760266662
+      AssaultRobot_145: 1582134951
+      AssaultRobot_37: 1301828047
+      AssaultRobot_105: 359847972
+      AssaultRobot_189: -1261650031
+      AssaultRobot_101: 366147977
+      AssaultRobot_144: 1385839199
+      AssaultRobot_194: 1553726554
+      AssaultRobot_184: -1687654527
+      AssaultRobot_208: -882576757
+      AssaultRobot_205: -1610252063
+      AssaultRobot_22: 1874641204
+      AssaultRobot_253: 171633384
+      AssaultRobot_155: -1164736967
+      AssaultRobot_250: -2146375683
+      AssaultRobot_8: -1643393206
+      AssaultRobot_204: 1958186383
+      AssaultRobot_154: 2065418976
+      AssaultRobot_51: 131815566
+      AssaultRobot_52: 549218935
+      AssaultRobot_197: -1154544625
+      AssaultRobot_231: 374800134
+      AssaultRobot_200: -167522637
+      AssaultRobot_43: -838856603
+      AssaultRobot_149: 1220749601
+      AssaultRobot_165: -1217931234
+      AssaultRobot_28: -219825581
+      AssaultRobot_78: -81655712
+      AssaultRobot_230: 665761126
+      AssaultRobot_99: 864907017
+      AssaultRobot_148: -1566648953
+      AssaultRobot_196: -1235610270
+      AssaultRobot_237: -52939093
+      AssaultRobot_79: 1780988803
+      AssaultRobot_143: -846260147
+      AssaultRobot_203: -1328771390
+      AssaultRobot_93: -1128050591
+      AssaultRobot_14: -1608062845
+      AssaultRobot_39: 321143800
+      AssaultRobot_162: 69960692
+      AssaultRobot_183: 398014483
+      AssaultRobot_2: 1319003195
+      AssaultRobot_4: -1019105292
+      AssaultRobot_62: -1601730917
+      AssaultRobot_185: 388435460
+      AssaultRobot_53: 866027070
+      AssaultRobot_210: 1744846946
+      AssaultRobot_1: 257886456
+      AssaultRobot_175: -1470688034
+      AssaultRobot_7: 2100702967
+      AssaultRobot_223: 1390283671
+      AssaultRobot_100: 1107331893
+      AssaultRobot_113: 1841977919
+      AssaultRobot_137: 1475924251
+      AssaultRobot_251: 1030438958
+      AssaultRobot_0: 1746206619
+      AssaultRobot_44: 268574574
+      AssaultRobot_235: 96865694
+      AssaultRobot_16: 1759094968
+      AssaultRobot_10: -1292067963
+      AssaultRobot_67: 27858272
+      AssaultRobot_58: -857631502
+      AssaultRobot_73: 38395381
+      AssaultRobot_171: -1789878173
+      AssaultRobot_129: 906143098
+      AssaultRobot_63: 448011812
+      AssaultRobot_246: 516972426
+      AssaultRobot_77: -927966437
+      AssaultRobot_234: 335450128
+      AssaultRobot_88: 1938067627
+      AssaultRobot_126: 1154217653
+      AssaultRobot_74: -1624055139
+      AssaultRobot_249: -2101310972
+      AssaultRobot_182: -277295545
+      AssaultRobot_114: 488559790
+      AssaultRobot_227: 265490437
+      AssaultRobot_112: 1156694267
+      AssaultRobot_161: 1156609117
+      AssaultRobot_45: 73421775
+      AssaultRobot_3: 1093854098
+      AssaultRobot_199: 376911415
+      AssaultRobot_178: -1025659979
+      AssaultRobot_94: 806883844
+      AssaultRobot_170: -1091565563
+      AssaultRobot_120: -1835679050
+      AssaultRobot_186: -1143138238
+      AssaultRobot_241: 1139634269
+      AssaultRobot_215: -144434486
+      AssaultRobot_76: -1144937449
+      AssaultRobot_228: -1182647947
+      AssaultRobot_138: 1203157776
+      AssaultRobot_54: -429160195
+      AssaultRobot_232: 1783896830
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

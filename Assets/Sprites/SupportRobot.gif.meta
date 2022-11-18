@@ -1,0 +1,5710 @@
+fileFormatVersion: 2
+guid: 18a3efda0a1cc214c816187f648b3f89
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 40
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: SupportRobot_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 703
+        width: 37
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d06c721394a4374439035784d970822b
+      internalID: -1988515382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SupportRobot_1
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 703
+        width: 36
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 700d8cb2005bf3e4c9f73560c1fedd71
+      internalID: -440084805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SupportRobot_2
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 703
+        width: 58
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37cd5d2aaa7b1dc439d32e26ecf92db1
+      internalID: -1045592436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SupportRobot_3
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 703
+        width: 46
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d095b641c1a5be94684aebe48603ce0d
+      internalID: 1939645603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SupportRobot_4
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 703
+        width: 36
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a821c08683d87c48a4c01f5add6d669
+      internalID: -403788018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SupportRobot_5
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 703
+        width: 36
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6b20b5278efca844bce40dc49ff61b2
+      internalID: -525003176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SupportRobot_6
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 703
+        width: 36
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2cff4e182401fc47b7a502928794bff
+      internalID: 914966142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SupportRobot_7
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 703
+        width: 36
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b63ff9207aa079448b8253950e70cd15
+      internalID: 91102768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SupportRobot_8
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 703
+        width: 37
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5a90d16d57cfa24b87dc7c71db17510
+      internalID: 1033899336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SupportRobot_9
+      rect:
+        serializedVersion: 2
+        x: 377
+        y: 703
+        width: 37
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e3f2d973f22f2e419bd96afe6bcf126
+      internalID: 1804500730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SupportRobot_10
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 703
+        width: 36
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: baccb0f75d2c5b4468817b23ea84d1b4
+      internalID: -1531365878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SupportRobot_11
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 703
+        width: 36
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9622a8cec8494b4bb6e9b8fd67469bd
+      internalID: 1952321859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SupportRobot_12
+      rect:
+        serializedVersion: 2
+        x: 492
+        y: 703
+        width: 36
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0ff8b1f3b16a8c4e9814c031ebab0cd
+      internalID: 565740093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SupportRobot_13
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 703
+        width: 36
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9b650899e85e3741bddf166989d3f14
+      internalID: 573691391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SupportRobot_14
+      rect:
+        serializedVersion: 2
+        x: 568
+        y: 703
+        width: 46
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72666a8d1733fc74482cb8f6dfe3714c
+      internalID: 40556979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SupportRobot_15
+      rect:
+        serializedVersion: 2
+        x: 616
+        y: 703
+        width: 58
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8a7ab0d8d1a67a4ba720e9dc07a2e78
+      internalID: -1365330337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SupportRobot_16
+      rect:
+        serializedVersion: 2
+        x: 676
+        y: 703
+        width: 36
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f30bf297629f354459166d0095dda403
+      internalID: -1984012307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SupportRobot_17
+      rect:
+        serializedVersion: 2
+        x: 714
+        y: 703
+        width: 37
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9789b3c618a598c4caf0fe247625f99b
+      internalID: 521302911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SupportRobot_18
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 648
+        width: 36
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 043503a25d1a8db4c8eea75ec8b65884
+      internalID: 1265840373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SupportRobot_19
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 648
+        width: 36
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d37621f44c6ff96458a9d63e10bdf054
+      internalID: 1389618061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SupportRobot_20
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 648
+        width: 36
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f730e976277b974daef3b190e682163
+      internalID: -362393106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SupportRobot_21
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 648
+        width: 36
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 082ef328503b23944b1599d2d97d7717
+      internalID: -2004088724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SupportRobot_22
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 648
+        width: 36
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9452a2dad16f12f499e3b56dc6fe773c
+      internalID: -684330063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SupportRobot_23
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 648
+        width: 36
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51dc28f758b29794a9bcebb7da5d743b
+      internalID: 841484971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SupportRobot_24
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 648
+        width: 36
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0fceda572e0f0945a618c2e17284cf5
+      internalID: -1459278877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SupportRobot_25
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 648
+        width: 36
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afdb614e30d452b4ebdac75db99683a6
+      internalID: 343450108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SupportRobot_26
+      rect:
+        serializedVersion: 2
+        x: 377
+        y: 648
+        width: 36
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b21a95b0e40fb2449bb503f37c63afd
+      internalID: -740434547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SupportRobot_27
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 648
+        width: 36
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcfde0694118e5740b052c88fdcf7dc2
+      internalID: 1931675452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SupportRobot_28
+      rect:
+        serializedVersion: 2
+        x: 453
+        y: 648
+        width: 36
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e13bea752557f5d4a9e5a6b6abce3f9d
+      internalID: -1548135556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SupportRobot_29
+      rect:
+        serializedVersion: 2
+        x: 491
+        y: 648
+        width: 36
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 700c61bd09c646d4f8a1b048133312f0
+      internalID: -1068895503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SupportRobot_30
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 648
+        width: 36
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf0eac4e5b248f44293f1c3647f76cb0
+      internalID: 1111842367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SupportRobot_31
+      rect:
+        serializedVersion: 2
+        x: 567
+        y: 648
+        width: 36
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 557f238ba40ae9048a08c34c0ace87dd
+      internalID: -1244700245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SupportRobot_32
+      rect:
+        serializedVersion: 2
+        x: 605
+        y: 648
+        width: 36
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd341a00e2fac404eba4a867dc41d847
+      internalID: 120551900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SupportRobot_33
+      rect:
+        serializedVersion: 2
+        x: 643
+        y: 648
+        width: 36
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d95a0fb6c4b34f408d660e4cab38543
+      internalID: 8931007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SupportRobot_34
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 582
+        width: 62
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e8f44748c47a2649abc75a592116ced
+      internalID: 491704549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SupportRobot_35
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 582
+        width: 61
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8cfdd3b2bfe05bf498d73e79365e7ca2
+      internalID: -499016507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SupportRobot_36
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 582
+        width: 55
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2dce62655b3007147ac4969e5e284846
+      internalID: 1833347009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SupportRobot_37
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 590
+        width: 51
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1541c2fb830cf3741a99341bb4962211
+      internalID: -581673717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SupportRobot_38
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 582
+        width: 42
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba24584627f16f54a90d42d77dbebb66
+      internalID: 1307996944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SupportRobot_39
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 598
+        width: 42
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8c4d9de5b87cfc4ea7bc22601e7c49c
+      internalID: 599340234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SupportRobot_40
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 594
+        width: 36
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89a4e54a281277549a5095ad2d7fc15f
+      internalID: 1313917645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SupportRobot_41
+      rect:
+        serializedVersion: 2
+        x: 381
+        y: 594
+        width: 36
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a96f4c01bd9c434da9644c909884264
+      internalID: -1621016278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SupportRobot_42
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 598
+        width: 42
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e57cf31d742dba741896c6ff2444d7e5
+      internalID: -1974259618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SupportRobot_43
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 582
+        width: 42
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c52e4ca86beede24d8e3395ab5c4d1e4
+      internalID: -525111928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SupportRobot_44
+      rect:
+        serializedVersion: 2
+        x: 507
+        y: 590
+        width: 51
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7883b6df8e6f0b847a9a0f3d274b5ca9
+      internalID: -1419762942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SupportRobot_45
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 582
+        width: 55
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7164ff9ec7b3f9143b16830faf36392d
+      internalID: -457652478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SupportRobot_46
+      rect:
+        serializedVersion: 2
+        x: 617
+        y: 582
+        width: 61
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72c761e7dc2c5b84b8b933325a600439
+      internalID: -330549996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SupportRobot_47
+      rect:
+        serializedVersion: 2
+        x: 680
+        y: 582
+        width: 62
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ab419339c5ef5348b3062636180902f
+      internalID: -1517131161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SupportRobot_48
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 582
+        width: 32
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23a732e5cdc8b90449711bddbc3697b2
+      internalID: -1426592887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SupportRobot_49
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 582
+        width: 32
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93f0fe54ed0e4244e89cae294f359ee6
+      internalID: -1647700023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SupportRobot_50
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 582
+        width: 32
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78bccc0538643ee4986a464f902d1c5e
+      internalID: 731157300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SupportRobot_51
+      rect:
+        serializedVersion: 2
+        x: 377
+        y: 582
+        width: 32
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14c383cc2759e644b9afa02e27354382
+      internalID: -1128281862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SupportRobot_52
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 582
+        width: 32
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b0078c726b6669499a01b3548f42a3e
+      internalID: -311783061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SupportRobot_53
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 582
+        width: 32
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 977a1db4c5901f24b8d4141f2cf803f6
+      internalID: -647222764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SupportRobot_54
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 507
+        width: 37
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 927b784081034094dbe7f3352fe3133c
+      internalID: -931457034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SupportRobot_55
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 507
+        width: 34
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ca33d2af6da08f459f736d261b2484a
+      internalID: 601840973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SupportRobot_56
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 507
+        width: 45
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13641a20762a2a14f9f723f54e92c1b8
+      internalID: 494798989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SupportRobot_57
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 507
+        width: 51
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e90d9e7f7f8bbe4aac0ec0c484dd410
+      internalID: -2107113330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SupportRobot_58
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 507
+        width: 50
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9eca193e84909e4ead97ee383e3a66d
+      internalID: -846577959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SupportRobot_59
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 507
+        width: 43
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 251c180c147418d4bbe9fda61fce96f7
+      internalID: 1097582773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SupportRobot_60
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 507
+        width: 50
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 331c97f373266ee439d0f8cad81f5336
+      internalID: -369733478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SupportRobot_61
+      rect:
+        serializedVersion: 2
+        x: 377
+        y: 507
+        width: 50
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2fa352c1a026eb468fec3184ef9acb4
+      internalID: -793626424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SupportRobot_62
+      rect:
+        serializedVersion: 2
+        x: 429
+        y: 507
+        width: 43
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c246eef30085de8428862b47aeff7934
+      internalID: -682691876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SupportRobot_63
+      rect:
+        serializedVersion: 2
+        x: 474
+        y: 507
+        width: 50
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71a0d84c605e7d54e8a6d7b9ce9dbea3
+      internalID: -1727661193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SupportRobot_64
+      rect:
+        serializedVersion: 2
+        x: 526
+        y: 507
+        width: 51
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0cb760eccbdfc5b4bafca5e2307801b7
+      internalID: 664464184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SupportRobot_65
+      rect:
+        serializedVersion: 2
+        x: 579
+        y: 507
+        width: 45
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfbf35c71b6cd0745bb70a78e52c92f8
+      internalID: -1851701625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SupportRobot_66
+      rect:
+        serializedVersion: 2
+        x: 626
+        y: 507
+        width: 34
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b3e3126b8e0070469a9baf944a49ce2
+      internalID: -368975041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SupportRobot_67
+      rect:
+        serializedVersion: 2
+        x: 662
+        y: 507
+        width: 37
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e84c51b3685bd14f8d1bde19db45015
+      internalID: 1441752091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SupportRobot_68
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 444
+        width: 45
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9221bc359db2ae54888c3d81502ca04d
+      internalID: -715169983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SupportRobot_69
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 444
+        width: 44
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cde0d77db8046d148acfcacaf1bf9192
+      internalID: 588657320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SupportRobot_70
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 444
+        width: 49
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4d578949477f6e41a5fc1d2c76af7b5
+      internalID: -1609892229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SupportRobot_71
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 444
+        width: 37
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d64301fde9bf75f4fa83586b74c4906f
+      internalID: 1359794419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SupportRobot_72
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 444
+        width: 37
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9095c79a064a7b4fa8b5c63872ac1a7
+      internalID: 533436826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SupportRobot_73
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 444
+        width: 32
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11975fcc2cfcaea449dde25c691de927
+      internalID: 1949702221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SupportRobot_74
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 444
+        width: 37
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 836f1458f96eff44d935fe838fdc5370
+      internalID: -1856818378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SupportRobot_75
+      rect:
+        serializedVersion: 2
+        x: 377
+        y: 444
+        width: 37
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91c8263a1b4367845a08e2dc37431ac7
+      internalID: 875255230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SupportRobot_76
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 444
+        width: 32
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 212279a56cc395045abd0bc0086a0d88
+      internalID: -711794235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SupportRobot_77
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 444
+        width: 37
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2dae4688e18d4d4cbed06e3e1f58da1
+      internalID: 654539000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SupportRobot_78
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 444
+        width: 37
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ac4fdc8c0663e84fb6dbab545deeea4
+      internalID: 1466451541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SupportRobot_79
+      rect:
+        serializedVersion: 2
+        x: 527
+        y: 444
+        width: 49
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b92616c5c4285a14f8a0db6a0f5b9a69
+      internalID: 1917851240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SupportRobot_80
+      rect:
+        serializedVersion: 2
+        x: 578
+        y: 444
+        width: 44
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95819d34e5b2b4341b3ff02e8e9f8a12
+      internalID: -1953983682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SupportRobot_81
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 444
+        width: 45
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ddd12363e5fbc6449743b6ca8ed0d1b
+      internalID: 1481098949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SupportRobot_82
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 385
+        width: 37
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ac4d63bd21434348a74905a72cd5167
+      internalID: 1182410713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SupportRobot_83
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 385
+        width: 34
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bee8e53debe8c154f921ce0116d64c14
+      internalID: 1805868795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SupportRobot_84
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 385
+        width: 45
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4888f2e684b39ed40a972ba7f2594d66
+      internalID: 471827027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SupportRobot_85
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 385
+        width: 52
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7c9842df4f70a34abf07bae78fb67d8
+      internalID: 1074812729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SupportRobot_86
+      rect:
+        serializedVersion: 2
+        x: 377
+        y: 385
+        width: 52
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e19bd4750d7ca054395eaba4264601fe
+      internalID: 973118859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SupportRobot_87
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 385
+        width: 45
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28f02d2c3251c3f4393bf12bc6e8f7da
+      internalID: -1994831726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SupportRobot_88
+      rect:
+        serializedVersion: 2
+        x: 478
+        y: 385
+        width: 34
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7fbe33a908b71b45b33512e39b6525f
+      internalID: -1891735054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SupportRobot_89
+      rect:
+        serializedVersion: 2
+        x: 514
+        y: 385
+        width: 37
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 399c177be8599e44fa7c484dd49ba82e
+      internalID: -345968689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SupportRobot_90
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 323
+        width: 35
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c096a16595ccc1a4096faea99a2aa8a1
+      internalID: 965057268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SupportRobot_91
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 323
+        width: 34
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71de7a80ab9ef5246bc643169c15065c
+      internalID: 2132911782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SupportRobot_92
+      rect:
+        serializedVersion: 2
+        x: 377
+        y: 323
+        width: 34
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a13f5e19f3b13b4ca0d15888395901f
+      internalID: -1081574360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SupportRobot_93
+      rect:
+        serializedVersion: 2
+        x: 413
+        y: 323
+        width: 35
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fa491747c94d174d808f5a0eb6a485a
+      internalID: -2147238743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SupportRobot_94
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 312
+        width: 25
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd4b1312cf0d83c43a0a1e3aca0bfa1f
+      internalID: -1177294149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SupportRobot_95
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 313
+        width: 21
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3867caa52b00c29428a250a5e54d2c90
+      internalID: -23857751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SupportRobot_96
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 313
+        width: 19
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2543eb4bf5213f4a93da9583abfd11a
+      internalID: -631329132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SupportRobot_97
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 313
+        width: 17
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e41ece30773d304aad33ba4e666c039
+      internalID: 908737347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SupportRobot_98
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 314
+        width: 16
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4ad935228956014fbe7157414336eba
+      internalID: -842651617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SupportRobot_99
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 257
+        width: 109
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b52d5d9970168ea4fb3b507f2752a4cb
+      internalID: -563190743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SupportRobot_100
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 314
+        width: 61
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9787459014132d469a8dcf2d1567c45
+      internalID: 94723724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SupportRobot_101
+      rect:
+        serializedVersion: 2
+        x: 473
+        y: 313
+        width: 17
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cca1e7f216c1d934f9d573d47d9bbacf
+      internalID: -896687207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SupportRobot_102
+      rect:
+        serializedVersion: 2
+        x: 492
+        y: 313
+        width: 19
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a66d5606f258a34582c6f55d8735f9b
+      internalID: 1209422129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SupportRobot_103
+      rect:
+        serializedVersion: 2
+        x: 513
+        y: 313
+        width: 21
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9892366bfd53d348aaa2042d8dfe762
+      internalID: -199253456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SupportRobot_104
+      rect:
+        serializedVersion: 2
+        x: 536
+        y: 312
+        width: 25
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 329019cffd249e242b2a5a5333002dc7
+      internalID: 486672817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SupportRobot_105
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 257
+        width: 35
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dcf5b2db3870a474496f458781dd8c09
+      internalID: 2015379302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SupportRobot_106
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 257
+        width: 36
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82ce77fcb20072a40804dcabe2992d36
+      internalID: 1182393781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SupportRobot_107
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 257
+        width: 39
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12e74908e696a2e4f9034282e2581790
+      internalID: 1417228342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SupportRobot_108
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 257
+        width: 36
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 030d35f2bda1ea44d9ba7b376cd5c45d
+      internalID: -811641908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SupportRobot_109
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 257
+        width: 36
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29f7a74dc13a9c04284408e5672bfb05
+      internalID: 940720698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SupportRobot_110
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 257
+        width: 36
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26599274c8a25a248b395999c6159b4d
+      internalID: -1023835422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SupportRobot_111
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 257
+        width: 35
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e15df7acceae7914c96f9502edccc0f5
+      internalID: 1693826104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SupportRobot_112
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 257
+        width: 23
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcef078758052414cbf968fbd0d46fcc
+      internalID: -1333751445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SupportRobot_113
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 257
+        width: 35
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dea671dfb1358cd459324190796ed637
+      internalID: -916506396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SupportRobot_114
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 257
+        width: 36
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4d2aa08c9771644f9a1a62869a4f4b9
+      internalID: 2043538127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SupportRobot_115
+      rect:
+        serializedVersion: 2
+        x: 476
+        y: 257
+        width: 36
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 504f5ddc0290aeb468f900e6d03c439f
+      internalID: 628267490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SupportRobot_116
+      rect:
+        serializedVersion: 2
+        x: 514
+        y: 257
+        width: 36
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a41ab171d3d21574495601a12ad68a77
+      internalID: -813532263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SupportRobot_117
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 257
+        width: 39
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d0901ebb27060445bee6f527840cdfe
+      internalID: -1473765770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SupportRobot_118
+      rect:
+        serializedVersion: 2
+        x: 593
+        y: 257
+        width: 36
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62aa907e48b12a64ea4492ef4f821a88
+      internalID: 2110313384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SupportRobot_119
+      rect:
+        serializedVersion: 2
+        x: 631
+        y: 257
+        width: 35
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fa3bc8e662eda443bbb7fbba1e7e0af
+      internalID: 1781357529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SupportRobot_120
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 230
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02249ead15bcdf0428411d7dee2a1157
+      internalID: 911256669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SupportRobot_121
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 237
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ce99154a51f8e54b9586a6ce7d4d0f1
+      internalID: 1139778787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SupportRobot_122
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 227
+        width: 8
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64f9565e16bc1ed4ca3d8e6be49dfa77
+      internalID: -2128199411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SupportRobot_123
+      rect:
+        serializedVersion: 2
+        x: 534
+        y: 227
+        width: 8
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77626ca6bef887b4d8c20001bfa149be
+      internalID: 322269426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SupportRobot_124
+      rect:
+        serializedVersion: 2
+        x: 616
+        y: 237
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 374ad8d619740804e9ee0985bb1cac8d
+      internalID: 362624235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SupportRobot_125
+      rect:
+        serializedVersion: 2
+        x: 631
+        y: 230
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 563ea07a4906d0649a190de5e35538b5
+      internalID: -1068980602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SupportRobot_126
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 229
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d96e174b853cd944cb2df735f0ae5928
+      internalID: -1113212462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SupportRobot_127
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 182
+        width: 45
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65e962465c3eb314dbed907a78f1f95a
+      internalID: -1161686019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SupportRobot_128
+      rect:
+        serializedVersion: 2
+        x: 429
+        y: 182
+        width: 45
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: acc6593f1deab7a4b90ae2a073ec9c53
+      internalID: -1787596981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SupportRobot_129
+      rect:
+        serializedVersion: 2
+        x: 524
+        y: 229
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4fefbd099b7a754b846d1cb33414db3
+      internalID: -10068254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SupportRobot_130
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 210
+        width: 17
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c1b7fe224f41274697247a29d2a6f62
+      internalID: -56517984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SupportRobot_131
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 218
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 845b069e0bcd0104296d1fe518b1903b
+      internalID: -665413341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SupportRobot_132
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 212
+        width: 25
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c392cda4361d43a499952a27f5fdd06e
+      internalID: 263855405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SupportRobot_133
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 206
+        width: 15
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7444951d836bfaf43a17779420f189cf
+      internalID: 1945268118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SupportRobot_134
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 217
+        width: 16
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 310573d4f9ccb914bbdd92aaad4ea3fc
+      internalID: -2094611571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SupportRobot_135
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 192
+        width: 51
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccfa024308c024f4fb4a3226e26a66d2
+      internalID: -899543591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SupportRobot_136
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 218
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30275b5880ac89a41b51517db8bd30e9
+      internalID: 132675617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SupportRobot_137
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 218
+        width: 13
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72f92077a80b409409aeb5767a69a2d4
+      internalID: -292796050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SupportRobot_138
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 207
+        width: 22
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2dd4b44aad6e674db5051c2204ea38e
+      internalID: -1693745430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SupportRobot_139
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 175
+        width: 45
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7b2128d7fd5fc248841f7b97fed34aa
+      internalID: -1716047834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SupportRobot_140
+      rect:
+        serializedVersion: 2
+        x: 377
+        y: 175
+        width: 45
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc252b29f672f36479e14dc2e348f92e
+      internalID: 116941627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SupportRobot_141
+      rect:
+        serializedVersion: 2
+        x: 473
+        y: 207
+        width: 22
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 707d826080e1081419cbee95baf660e3
+      internalID: -1410110267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SupportRobot_142
+      rect:
+        serializedVersion: 2
+        x: 497
+        y: 218
+        width: 13
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13b0f03ac331fe449a9aff093b455697
+      internalID: -2012593625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SupportRobot_143
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 192
+        width: 51
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3f9a4b98f52d1748a58f25d9922cdd2
+      internalID: -1912794939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SupportRobot_144
+      rect:
+        serializedVersion: 2
+        x: 557
+        y: 218
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c70c7185782df0b488b2ee45290122b2
+      internalID: 1055187337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SupportRobot_145
+      rect:
+        serializedVersion: 2
+        x: 568
+        y: 217
+        width: 16
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17389caa7587a3348a9d9465d0627cf5
+      internalID: -143382961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SupportRobot_146
+      rect:
+        serializedVersion: 2
+        x: 589
+        y: 206
+        width: 15
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a0539ee0a0ea514cae545bbe0a5a496
+      internalID: 1368343375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SupportRobot_147
+      rect:
+        serializedVersion: 2
+        x: 605
+        y: 212
+        width: 25
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 242819c098b505949be618fbb38bdf26
+      internalID: 1941502989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SupportRobot_148
+      rect:
+        serializedVersion: 2
+        x: 632
+        y: 218
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d209104ce8d80b942a83424a9004d67f
+      internalID: 84567276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SupportRobot_149
+      rect:
+        serializedVersion: 2
+        x: 668
+        y: 210
+        width: 17
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fe52bafe737e6b41822532b490e19c8
+      internalID: -516644701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SupportRobot_150
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 186
+        width: 23
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6626cd490e8a4f149a89cc358c2f18ae
+      internalID: -1084205541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SupportRobot_151
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 182
+        width: 11
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69c90543944ebf646a4eb39153852668
+      internalID: -826795300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SupportRobot_152
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 205
+        width: 16
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c66fc07b9764664eae2f209094daa43
+      internalID: -880540649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SupportRobot_153
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 207
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a868bbc69780fc43823fa55ac18d6bc
+      internalID: 1960151819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SupportRobot_154
+      rect:
+        serializedVersion: 2
+        x: 507
+        y: 207
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a93729550d2fd1e40ad5a85665889aa7
+      internalID: -982802652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SupportRobot_155
+      rect:
+        serializedVersion: 2
+        x: 563
+        y: 205
+        width: 16
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a119972f28c11594aa517441a0dade75
+      internalID: 1796075256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SupportRobot_156
+      rect:
+        serializedVersion: 2
+        x: 632
+        y: 182
+        width: 11
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d27047a274a757a47b021cd83ae29112
+      internalID: 454398126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SupportRobot_157
+      rect:
+        serializedVersion: 2
+        x: 641
+        y: 186
+        width: 23
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9ca4858f9a3d544c955ca3151c437be
+      internalID: 584360351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SupportRobot_158
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 194
+        width: 16
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 433d3eaecd86661428099e6793aecbf7
+      internalID: -1189855765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SupportRobot_159
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 198
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f30a3b7613b3d94382457ff7f3b0d83
+      internalID: 1952109387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SupportRobot_160
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 179
+        width: 12
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 268405152d5e9e243a7915353cb31299
+      internalID: -1861050388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SupportRobot_161
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 175
+        width: 12
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5e5eefefa07a684ea0678c41f4086de
+      internalID: 477795150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SupportRobot_162
+      rect:
+        serializedVersion: 2
+        x: 453
+        y: 175
+        width: 12
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c179e981cf015ac4b9d3b94dd4eeba47
+      internalID: 368419970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SupportRobot_163
+      rect:
+        serializedVersion: 2
+        x: 533
+        y: 179
+        width: 12
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34914e4bcf7d97e4eb97a618098317dc
+      internalID: 1396362237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SupportRobot_164
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 198
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f87908936db6a449810e08022991941
+      internalID: -769138168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SupportRobot_165
+      rect:
+        serializedVersion: 2
+        x: 665
+        y: 194
+        width: 16
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e78c73549830eeb4593407ec1d788f0d
+      internalID: 578781039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SupportRobot_166
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 166
+        width: 32
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d43c4ce9ab2bb04f847a54c236eb4ce
+      internalID: 1570314246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SupportRobot_167
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 137
+        width: 43
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a188603b9577644c970481c66d302da
+      internalID: -1666765835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SupportRobot_168
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 166
+        width: 32
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd3be41ca794066429716adad6557d53
+      internalID: -1089131471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SupportRobot_169
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 149
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73c51fa867886034b8f72ef21109212c
+      internalID: -1342420997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SupportRobot_170
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 149
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b56dd8a88f2828c4db832fcf39b9b848
+      internalID: -382898851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SupportRobot_171
+      rect:
+        serializedVersion: 2
+        x: 444
+        y: 166
+        width: 32
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1fb754385744e09458edde955cd70973
+      internalID: 1133746572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SupportRobot_172
+      rect:
+        serializedVersion: 2
+        x: 513
+        y: 137
+        width: 43
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1148e86dbfce4441969ea594f645a55
+      internalID: 1812643311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SupportRobot_173
+      rect:
+        serializedVersion: 2
+        x: 623
+        y: 166
+        width: 32
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 784845d00fe31ec49b617fdd5305b55b
+      internalID: -740802901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SupportRobot_174
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 120
+        width: 11
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73771a321981e254ba8955ee07f32c14
+      internalID: -1473194091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SupportRobot_175
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 135
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 970f17b12bc1dcb4dbd8c324734c0000
+      internalID: -1962463959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SupportRobot_176
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 134
+        width: 9
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8c9d1f65c02f8946917a358e2dfe578
+      internalID: -2117068281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SupportRobot_177
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 134
+        width: 9
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 832131bb0c384a04ea59fa7a94e3f22c
+      internalID: -282422313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SupportRobot_178
+      rect:
+        serializedVersion: 2
+        x: 545
+        y: 135
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1cf457ca07099248af6720b0747f8b6
+      internalID: -898757501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SupportRobot_179
+      rect:
+        serializedVersion: 2
+        x: 671
+        y: 120
+        width: 11
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 890b4eea90d1b1841a25fb5157d3a859
+      internalID: -489086375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SupportRobot_180
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 108
+        width: 16
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb2347918efc19941aa10da1d47b1e8a
+      internalID: -1052742404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SupportRobot_181
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 116
+        width: 25
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bd7fffbf2b7dc9498aa8a28fc2223cb
+      internalID: -1885519818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SupportRobot_182
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 109
+        width: 15
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc31d93fbb55c934783a5f604c9e9870
+      internalID: -593509309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SupportRobot_183
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 99
+        width: 22
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58c1dc857fd594e4f9b128c7e18cd3a9
+      internalID: -980703309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SupportRobot_184
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 116
+        width: 25
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37dea2904514fa941bb801159351764a
+      internalID: 1439968807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SupportRobot_185
+      rect:
+        serializedVersion: 2
+        x: 467
+        y: 108
+        width: 16
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4026132fb989bb944877b3d22c258896
+      internalID: 322897145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SupportRobot_186
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 84
+        width: 25
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec638b604e720aa4f9fbd6a7a1ad9a77
+      internalID: -902491925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SupportRobot_187
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 81
+        width: 41
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bb88103cee094f45b42ad4bf65d61ad
+      internalID: 1357532080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SupportRobot_188
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 99
+        width: 24
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44467daec96d077489c754fe64d8bac7
+      internalID: 1216336726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SupportRobot_189
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 93
+        width: 12
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a853d1dbfa3999d489227663fb5a601c
+      internalID: 941878178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SupportRobot_190
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 94
+        width: 16
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9addcd7e066c934c80b6bc4196690c8
+      internalID: -1406111739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SupportRobot_191
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 91
+        width: 23
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c869362a28f07434182cf753b60fb571
+      internalID: -138599376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SupportRobot_192
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 91
+        width: 13
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8594ed389ea4c2448a84ae1cc35e34b
+      internalID: 1726256175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SupportRobot_193
+      rect:
+        serializedVersion: 2
+        x: 427
+        y: 91
+        width: 13
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05d9cbfaa3b071e4bb645fa0a1a9ead9
+      internalID: -339951521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SupportRobot_194
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 91
+        width: 23
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3315432d486e25d4f81ba5d09dcabb76
+      internalID: -547761471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SupportRobot_195
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 94
+        width: 16
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5892b43b00b370945907a6e6ea748a60
+      internalID: 385156054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SupportRobot_196
+      rect:
+        serializedVersion: 2
+        x: 497
+        y: 93
+        width: 12
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c2c2670e280abd479f184e5290ea1ee
+      internalID: -124307270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SupportRobot_197
+      rect:
+        serializedVersion: 2
+        x: 517
+        y: 99
+        width: 24
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc07a2f2ae6f6ad45a4f051a0206ae26
+      internalID: -526530433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SupportRobot_198
+      rect:
+        serializedVersion: 2
+        x: 539
+        y: 81
+        width: 41
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53d1d31cb89cc3145b4781079f8ef3a5
+      internalID: -529841566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SupportRobot_199
+      rect:
+        serializedVersion: 2
+        x: 586
+        y: 84
+        width: 25
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b02b52f43a5682f43a4648c5517ac5cc
+      internalID: 1167627014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SupportRobot_200
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 81
+        width: 63
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfc021705d0209047b69deb8e09f46a5
+      internalID: 1734543839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SupportRobot_201
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 83
+        width: 17
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abc9b7e901a9d89479c5ec448f469188
+      internalID: -103539983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SupportRobot_202
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 81
+        width: 32
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d42a6f127201e2a42be0ceddf6ffb0aa
+      internalID: -1993087205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SupportRobot_203
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 81
+        width: 32
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: acdf86d5f0e2b444da07d592b67c1020
+      internalID: 987971999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SupportRobot_204
+      rect:
+        serializedVersion: 2
+        x: 619
+        y: 83
+        width: 17
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e36f70edb48ea074287df934cf03879d
+      internalID: -846792845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SupportRobot_205
+      rect:
+        serializedVersion: 2
+        x: 641
+        y: 81
+        width: 63
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8dff0a8f06e3324428200482daefa3f7
+      internalID: 820575071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SupportRobot_206
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 52
+        width: 28
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5583a19e52f55cd40a9929639a596112
+      internalID: 1722150749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SupportRobot_207
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 47
+        width: 29
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3630c6448f509a341a64717414bd7777
+      internalID: 799571307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SupportRobot_208
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 47
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 261f85603a5dbc840a3bc484959d7db8
+      internalID: 1443760824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SupportRobot_209
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 44
+        width: 41
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f757b2865b71274787624a5ba4bcdc8
+      internalID: -531264382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SupportRobot_210
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 59
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 469240802c1b5a44fb3f26e9da8a9ab4
+      internalID: 773090752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SupportRobot_211
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 53
+        width: 29
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9530ac9de5d0a945807c1eff83eec61
+      internalID: 1034730471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SupportRobot_212
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 51
+        width: 19
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be3604961a64d9d4280220aa0ab3b255
+      internalID: 1109995972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SupportRobot_213
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 51
+        width: 19
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 732ebcf5a0f874a4ca8fab04c21fe1c8
+      internalID: -358829247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SupportRobot_214
+      rect:
+        serializedVersion: 2
+        x: 427
+        y: 53
+        width: 29
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9370800641fca9640b8fc305fe0ffa76
+      internalID: 1870917958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SupportRobot_215
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 44
+        width: 41
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06d02ba47eee91a44bc36538251b252f
+      internalID: 199275633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SupportRobot_216
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 59
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e4b4f5af5b97b54eabd44470acdf65a
+      internalID: 805680343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SupportRobot_217
+      rect:
+        serializedVersion: 2
+        x: 531
+        y: 47
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 911fe246e762ccb4a8f17bbdb7a84c8f
+      internalID: 1699955722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SupportRobot_218
+      rect:
+        serializedVersion: 2
+        x: 553
+        y: 47
+        width: 29
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46ed7c7f1eba7174e8a0cdd9bc3e4ba9
+      internalID: -206640072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SupportRobot_219
+      rect:
+        serializedVersion: 2
+        x: 680
+        y: 52
+        width: 28
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7317c9ebb2d0ff94888898b448e1243a
+      internalID: -1209525556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SupportRobot_220
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 46
+        width: 41
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07ce3c9b3450f20459bbf4ed18c14a2e
+      internalID: 1983854043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SupportRobot_221
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 49
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcc3a695baf5fc243b8c1e87daa80c27
+      internalID: -866910122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SupportRobot_222
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 47
+        width: 23
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d22ea73752ff8674f919f2d32857b2f6
+      internalID: 499109893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SupportRobot_223
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 44
+        width: 41
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0a281c0cfc836d4dbc28e2d3100a758
+      internalID: -1967980687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SupportRobot_224
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 48
+        width: 23
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c3cad7a436c982419767b2ef1e22e52
+      internalID: -1116857276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SupportRobot_225
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 46
+        width: 24
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad40ed664eca44a498507a806f4200ee
+      internalID: 876639741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SupportRobot_226
+      rect:
+        serializedVersion: 2
+        x: 377
+        y: 46
+        width: 24
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f62b6c1aab2cba4c984685517500b7c
+      internalID: 1128882288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SupportRobot_227
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 48
+        width: 23
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fb2499739543114b81fe402ec7e9b99
+      internalID: -97447235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SupportRobot_228
+      rect:
+        serializedVersion: 2
+        x: 582
+        y: 44
+        width: 41
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de04184a429c2f4468b1d7ed84b06453
+      internalID: -1368038069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SupportRobot_229
+      rect:
+        serializedVersion: 2
+        x: 634
+        y: 47
+        width: 23
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 476da52d0503df94e93c33af476b47d0
+      internalID: 1302416646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SupportRobot_230
+      rect:
+        serializedVersion: 2
+        x: 659
+        y: 49
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc2a84a0466028b42a12b8ae819d74ea
+      internalID: -861727209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SupportRobot_231
+      rect:
+        serializedVersion: 2
+        x: 710
+        y: 46
+        width: 41
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37dfaeb9dede4ce4bb349be9b62184c8
+      internalID: 1062269662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SupportRobot_232
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 20
+        width: 23
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b64bdb62e213dd84b9159ef2944d8bad
+      internalID: 810705303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SupportRobot_233
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 17
+        width: 41
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2019b84b63974149b04065abbeb9526
+      internalID: 1903132114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SupportRobot_234
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 20
+        width: 23
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7ba6855870ce56428380492d2e7f58a
+      internalID: -597822744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SupportRobot_235
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 21
+        width: 6
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca5eaf20f5418ee4dacb7821d94a7afc
+      internalID: 1042402879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SupportRobot_236
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 20
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a91aa35b74a5b3b4baae2345924bc94c
+      internalID: -676933029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SupportRobot_237
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 20
+        width: 23
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e053e3af3294e448b2c71af0afa316e
+      internalID: -1688122746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SupportRobot_238
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 17
+        width: 41
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a212c410634d48542abd9c9df17ea644
+      internalID: -1781848975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SupportRobot_239
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 20
+        width: 30
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc8fdeff77fe1d3428ba9dfa6a12f2e5
+      internalID: 1901826440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SupportRobot_240
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 20
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e68994c91cd188745aafa98e60a6edfb
+      internalID: 349566448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SupportRobot_241
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 20
+        width: 23
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e342e66ea92cd8040a8dd6c8178fe09f
+      internalID: 791482701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SupportRobot_242
+      rect:
+        serializedVersion: 2
+        x: 377
+        y: 20
+        width: 23
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66c28653a2e548541ab90ff34b1997f2
+      internalID: 609322405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SupportRobot_243
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 20
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f90d9e0a609f15541b70768dc2507ae7
+      internalID: 1274524684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SupportRobot_244
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 20
+        width: 30
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8472e40d7a38d294c8d4d6c6fbecb114
+      internalID: -85385028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SupportRobot_245
+      rect:
+        serializedVersion: 2
+        x: 457
+        y: 17
+        width: 41
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00b269ba5feae4f4e851569c45598d21
+      internalID: -312399705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SupportRobot_246
+      rect:
+        serializedVersion: 2
+        x: 509
+        y: 20
+        width: 23
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f9926df1fc6dfb4eb91f94a8c9cb158
+      internalID: -921458159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SupportRobot_247
+      rect:
+        serializedVersion: 2
+        x: 539
+        y: 20
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a5eb6ddf8c7a9240a5cfa80094b8907
+      internalID: 2097725475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SupportRobot_248
+      rect:
+        serializedVersion: 2
+        x: 559
+        y: 21
+        width: 6
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9b5e0dbe7446c047889a670ce033a76
+      internalID: -224417446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SupportRobot_249
+      rect:
+        serializedVersion: 2
+        x: 566
+        y: 20
+        width: 23
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b17822b341d214c4f936fef66f9e5a5a
+      internalID: -1088990746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SupportRobot_250
+      rect:
+        serializedVersion: 2
+        x: 590
+        y: 17
+        width: 41
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcd6eb32b31c3e14e8461e79185e9bb9
+      internalID: -93323421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SupportRobot_251
+      rect:
+        serializedVersion: 2
+        x: 642
+        y: 20
+        width: 23
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44b2453942ddc274e8e40f3322f02b04
+      internalID: -942374108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SupportRobot_252
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 1
+        width: 14
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33339c68ef3d20e4984cf15df6bc8607
+      internalID: 76304451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SupportRobot_253
+      rect:
+        serializedVersion: 2
+        x: 377
+        y: 1
+        width: 14
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 765dda47239dcd34691ceb924a22e5bd
+      internalID: -796865885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      SupportRobot_243: 1274524684
+      SupportRobot_248: -224417446
+      SupportRobot_103: -199253456
+      SupportRobot_87: -1994831726
+      SupportRobot_57: -2107113330
+      SupportRobot_24: -1459278877
+      SupportRobot_55: 601840973
+      SupportRobot_162: 368419970
+      SupportRobot_231: 1062269662
+      SupportRobot_203: 987971999
+      SupportRobot_0: -1988515382
+      SupportRobot_42: -1974259618
+      SupportRobot_58: -846577959
+      SupportRobot_147: 1941502989
+      SupportRobot_113: -916506396
+      SupportRobot_43: -525111928
+      SupportRobot_177: -282422313
+      SupportRobot_65: -1851701625
+      SupportRobot_128: -1787596981
+      SupportRobot_178: -898757501
+      SupportRobot_102: 1209422129
+      SupportRobot_114: 2043538127
+      SupportRobot_150: -1084205541
+      SupportRobot_219: -1209525556
+      SupportRobot_154: -982802652
+      SupportRobot_1: -440084805
+      SupportRobot_97: 908737347
+      SupportRobot_200: 1734543839
+      SupportRobot_156: 454398126
+      SupportRobot_220: 1983854043
+      SupportRobot_189: 941878178
+      SupportRobot_205: 820575071
+      SupportRobot_89: -345968689
+      SupportRobot_215: 199275633
+      SupportRobot_238: -1781848975
+      SupportRobot_108: -811641908
+      SupportRobot_37: -581673717
+      SupportRobot_30: 1111842367
+      SupportRobot_204: -846792845
+      SupportRobot_66: -368975041
+      SupportRobot_151: -826795300
+      SupportRobot_140: 116941627
+      SupportRobot_40: 1313917645
+      SupportRobot_218: -206640072
+      SupportRobot_75: 875255230
+      SupportRobot_181: -1885519818
+      SupportRobot_32: 120551900
+      SupportRobot_93: -2147238743
+      SupportRobot_62: -682691876
+      SupportRobot_164: -769138168
+      SupportRobot_11: 1952321859
+      SupportRobot_116: -813532263
+      SupportRobot_98: -842651617
+      SupportRobot_92: -1081574360
+      SupportRobot_115: 628267490
+      SupportRobot_172: 1812643311
+      SupportRobot_236: -676933029
+      SupportRobot_182: -593509309
+      SupportRobot_46: -330549996
+      SupportRobot_180: -1052742404
+      SupportRobot_232: 810705303
+      SupportRobot_132: 263855405
+      SupportRobot_101: -896687207
+      SupportRobot_153: 1960151819
+      SupportRobot_175: -1962463959
+      SupportRobot_106: 1182393781
+      SupportRobot_225: 876639741
+      SupportRobot_237: -1688122746
+      SupportRobot_67: 1441752091
+      SupportRobot_252: 76304451
+      SupportRobot_170: -382898851
+      SupportRobot_186: -902491925
+      SupportRobot_235: 1042402879
+      SupportRobot_228: -1368038069
+      SupportRobot_63: -1727661193
+      SupportRobot_133: 1945268118
+      SupportRobot_161: 477795150
+      SupportRobot_104: 486672817
+      SupportRobot_148: 84567276
+      SupportRobot_195: 385156054
+      SupportRobot_124: 362624235
+      SupportRobot_197: -526530433
+      SupportRobot_95: -23857751
+      SupportRobot_105: 2015379302
+      SupportRobot_45: -457652478
+      SupportRobot_152: -880540649
+      SupportRobot_59: 1097582773
+      SupportRobot_190: -1406111739
+      SupportRobot_96: -631329132
+      SupportRobot_146: 1368343375
+      SupportRobot_125: -1068980602
+      SupportRobot_207: 799571307
+      SupportRobot_240: 349566448
+      SupportRobot_187: 1357532080
+      SupportRobot_131: -665413341
+      SupportRobot_12: 565740093
+      SupportRobot_23: 841484971
+      SupportRobot_72: 533436826
+      SupportRobot_85: 1074812729
+      SupportRobot_199: 1167627014
+      SupportRobot_142: -2012593625
+      SupportRobot_230: -861727209
+      SupportRobot_184: 1439968807
+      SupportRobot_239: 1901826440
+      SupportRobot_171: 1133746572
+      SupportRobot_144: 1055187337
+      SupportRobot_35: -499016507
+      SupportRobot_49: -1647700023
+      SupportRobot_158: -1189855765
+      SupportRobot_241: 791482701
+      SupportRobot_224: -1116857276
+      SupportRobot_16: -1984012307
+      SupportRobot_129: -10068254
+      SupportRobot_8: 1033899336
+      SupportRobot_6: 914966142
+      SupportRobot_123: 322269426
+      SupportRobot_194: -547761471
+      SupportRobot_78: 1466451541
+      SupportRobot_157: 584360351
+      SupportRobot_247: 2097725475
+      SupportRobot_44: -1419762942
+      SupportRobot_10: -1531365878
+      SupportRobot_250: -93323421
+      SupportRobot_121: 1139778787
+      SupportRobot_15: -1365330337
+      SupportRobot_135: -899543591
+      SupportRobot_138: -1693745430
+      SupportRobot_192: 1726256175
+      SupportRobot_179: -489086375
+      SupportRobot_242: 609322405
+      SupportRobot_27: 1931675452
+      SupportRobot_183: -980703309
+      SupportRobot_211: 1034730471
+      SupportRobot_130: -56517984
+      SupportRobot_9: 1804500730
+      SupportRobot_60: -369733478
+      SupportRobot_213: -358829247
+      SupportRobot_90: 965057268
+      SupportRobot_19: 1389618061
+      SupportRobot_86: 973118859
+      SupportRobot_61: -793626424
+      SupportRobot_120: 911256669
+      SupportRobot_88: -1891735054
+      SupportRobot_229: 1302416646
+      SupportRobot_221: -866910122
+      SupportRobot_94: -1177294149
+      SupportRobot_251: -942374108
+      SupportRobot_134: -2094611571
+      SupportRobot_26: -740434547
+      SupportRobot_210: 773090752
+      SupportRobot_174: -1473194091
+      SupportRobot_176: -2117068281
+      SupportRobot_201: -103539983
+      SupportRobot_20: -362393106
+      SupportRobot_165: 578781039
+      SupportRobot_167: -1666765835
+      SupportRobot_13: 573691391
+      SupportRobot_84: 471827027
+      SupportRobot_217: 1699955722
+      SupportRobot_246: -921458159
+      SupportRobot_119: 1781357529
+      SupportRobot_126: -1113212462
+      SupportRobot_56: 494798989
+      SupportRobot_79: 1917851240
+      SupportRobot_139: -1716047834
+      SupportRobot_245: -312399705
+      SupportRobot_34: 491704549
+      SupportRobot_191: -138599376
+      SupportRobot_52: -311783061
+      SupportRobot_71: 1359794419
+      SupportRobot_168: -1089131471
+      SupportRobot_227: -97447235
+      SupportRobot_112: -1333751445
+      SupportRobot_145: -143382961
+      SupportRobot_64: 664464184
+      SupportRobot_53: -647222764
+      SupportRobot_76: -711794235
+      SupportRobot_39: 599340234
+      SupportRobot_50: 731157300
+      SupportRobot_109: 940720698
+      SupportRobot_193: -339951521
+      SupportRobot_222: 499109893
+      SupportRobot_111: 1693826104
+      SupportRobot_28: -1548135556
+      SupportRobot_82: 1182410713
+      SupportRobot_173: -740802901
+      SupportRobot_74: -1856818378
+      SupportRobot_5: -525003176
+      SupportRobot_233: 1903132114
+      SupportRobot_159: 1952109387
+      SupportRobot_22: -684330063
+      SupportRobot_91: 2132911782
+      SupportRobot_160: -1861050388
+      SupportRobot_249: -1088990746
+      SupportRobot_25: 343450108
+      SupportRobot_41: -1621016278
+      SupportRobot_149: -516644701
+      SupportRobot_141: -1410110267
+      SupportRobot_244: -85385028
+      SupportRobot_51: -1128281862
+      SupportRobot_33: 8931007
+      SupportRobot_48: -1426592887
+      SupportRobot_216: 805680343
+      SupportRobot_3: 1939645603
+      SupportRobot_99: -563190743
+      SupportRobot_70: -1609892229
+      SupportRobot_155: 1796075256
+      SupportRobot_14: 40556979
+      SupportRobot_202: -1993087205
+      SupportRobot_110: -1023835422
+      SupportRobot_31: -1244700245
+      SupportRobot_122: -2128199411
+      SupportRobot_80: -1953983682
+      SupportRobot_208: 1443760824
+      SupportRobot_127: -1161686019
+      SupportRobot_69: 588657320
+      SupportRobot_21: -2004088724
+      SupportRobot_107: 1417228342
+      SupportRobot_68: -715169983
+      SupportRobot_100: 94723724
+      SupportRobot_163: 1396362237
+      SupportRobot_137: -292796050
+      SupportRobot_117: -1473765770
+      SupportRobot_226: 1128882288
+      SupportRobot_206: 1722150749
+      SupportRobot_166: 1570314246
+      SupportRobot_196: -124307270
+      SupportRobot_169: -1342420997
+      SupportRobot_198: -529841566
+      SupportRobot_209: -531264382
+      SupportRobot_77: 654539000
+      SupportRobot_17: 521302911
+      SupportRobot_4: -403788018
+      SupportRobot_118: 2110313384
+      SupportRobot_212: 1109995972
+      SupportRobot_234: -597822744
+      SupportRobot_18: 1265840373
+      SupportRobot_185: 322897145
+      SupportRobot_188: 1216336726
+      SupportRobot_36: 1833347009
+      SupportRobot_83: 1805868795
+      SupportRobot_223: -1967980687
+      SupportRobot_7: 91102768
+      SupportRobot_29: -1068895503
+      SupportRobot_2: -1045592436
+      SupportRobot_143: -1912794939
+      SupportRobot_253: -796865885
+      SupportRobot_73: 1949702221
+      SupportRobot_38: 1307996944
+      SupportRobot_54: -931457034
+      SupportRobot_47: -1517131161
+      SupportRobot_81: 1481098949
+      SupportRobot_214: 1870917958
+      SupportRobot_136: 132675617
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
