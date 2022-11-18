@@ -15,7 +15,7 @@ public class Titlemanage : MonoBehaviour
     TitleCamera titleCamera;
     [SerializeField] GameObject processingManager;
     private bool menuOpen;
-    
+   
     // Method is a function that belongs to class;
     public static SaveData saveData;
     string SavePath => Path.Combine(Application.persistentDataPath, "save.data");

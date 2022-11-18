@@ -11,11 +11,11 @@ public class PlayerCamera : MonoBehaviour
     [SerializeField] public float speed = 10f;
     
     Player player;
-    Volume volume;
-    Vignette vignette;
-    SplitToning splitToning;
-    DepthOfField depthOfField;
-    ChromaticAberration chromaticAberration;
+    public Volume volume;
+    public Vignette vignette;
+    public SplitToning splitToning;
+    public DepthOfField depthOfField;
+    public ChromaticAberration chromaticAberration;
     private void Start()
     {
       player = GameObject.FindGameObjectWithTag("Player").GetComponent<Player>();
@@ -59,8 +59,9 @@ public class PlayerCamera : MonoBehaviour
         depthOfField.focusDistance.Override(3f);
     }
     private void Update()
-    {          
-     vignette.intensity.Override(1 - player.GetHPRatio());
+    {       
+
+      vignette.intensity.Override(1 - player.GetHPRatio());
         if (target == null)
         {
             return;

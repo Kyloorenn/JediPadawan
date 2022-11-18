@@ -19,12 +19,14 @@ public class GameManager : MonoBehaviour
     private bool BossFight = false;
     int spawnCounter = 0;
     private IEnumerator coroutine;
-    int minute, second;   
+    int minute, second;
+    PlayerCamera playerCamera;
     private void Start()
     {
         Player player = GetComponent<Player>();
         coroutine = SpawnEnemyCoroutine();
-        StartCoroutine(coroutine);       
+        StartCoroutine(coroutine);
+        playerCamera = GameObject.FindGameObjectWithTag("MainCamera").GetComponent<PlayerCamera>();
     }
 
    
@@ -123,7 +125,7 @@ void SpawnBoss()
    
     private void Update()
     {
-        
+        playerCamera.volume.enabled = Titlemanage.saveData.gameProcessing;
         int seconds = (int)Time.timeSinceLevelLoad;
         minute = seconds / 60;
         second = seconds % 60;
