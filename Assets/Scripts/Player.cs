@@ -16,7 +16,7 @@ public class Player : MonoBehaviour
     [SerializeField] Animator animator;
     [SerializeField] GameObject levelUpMenu;
     [SerializeField] GameObject GamePauseMenu;
-    [SerializeField] GameObject Wind;
+    //[SerializeField] GameObject Wind;
     [SerializeField] GameObject levelUpError;
     [SerializeField] GameObject InventoryManager;
     [SerializeField] GameObject Settlement;
@@ -27,7 +27,7 @@ public class Player : MonoBehaviour
     public int PlayerHealth;
     public int maxHP = 100;
     public int currentEXP = 0;
-    public int expToLevel = 160;
+    public int expToLevel = 200;
     public int currentLevel = 0;
     public AudioSource LevelUpMusic;
     public float maxstamina = 30f;
@@ -225,7 +225,7 @@ public class Player : MonoBehaviour
         if (currentEXP >= expToLevel)
         {
             currentEXP = 0;
-            expToLevel += 100;
+            expToLevel += 120;
             currentLevel++;
             LevelUpMusic.Play();
             maxHP += 20;
@@ -289,7 +289,7 @@ public class Player : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.LeftShift))
         {   
            isdashing = true;
-            
+            //Wind.SetActive(true);
         }
         if (Input.GetKey(KeyCode.LeftShift))
         {                               
@@ -300,7 +300,7 @@ public class Player : MonoBehaviour
         {
             isdashing = false;
             speed = 4;
-            
+            //Wind.SetActive(false);
         }
 
         if(isdashing == true)

@@ -9,13 +9,14 @@ public class PlayerCamera : MonoBehaviour
 {
     [SerializeField] public Transform target;
     [SerializeField] public float speed = 10f;
-    
+    private ParticleSystem ps;
     Player player;
     public Volume volume;
     public Vignette vignette;
     public SplitToning splitToning;
     public DepthOfField depthOfField;
     public ChromaticAberration chromaticAberration;
+    
     private void Start()
     {
       player = GameObject.FindGameObjectWithTag("Player").GetComponent<Player>();
@@ -24,9 +25,9 @@ public class PlayerCamera : MonoBehaviour
       volume.profile.TryGet(out depthOfField);
       volume.profile.TryGet(out splitToning);
       volume.profile.TryGet(out chromaticAberration);
-
-      //splitToning.highlights = new ColorParameter(UnityEngine.Color.clear);
-      //splitToning.shadows = new ColorParameter(UnityEngine.Color.clear);
+        ps = GetComponent<ParticleSystem>();
+        //splitToning.highlights = new ColorParameter(UnityEngine.Color.clear);
+        //splitToning.shadows = new ColorParameter(UnityEngine.Color.clear);
         /* postProcessVolume = GetComponent<PostProcessVolume>();
          postProcessVolume.profile.TryGetSettings(out UnityEngine.Rendering.PostProcessing.DepthOfField depthOfField);
          depthOfField.focusDistance.value = 0.1f; */
@@ -59,8 +60,8 @@ public class PlayerCamera : MonoBehaviour
         depthOfField.focusDistance.Override(3f);
     }
     private void Update()
-    {       
-
+    {
+        
       vignette.intensity.Override(1 - player.GetHPRatio());
         if (target == null)
         {

@@ -11,6 +11,7 @@ public class Barrier : MonoBehaviour
     [SerializeField] GameObject Projectile;
     [SerializeField] GameObject reflectProjectile;
     [SerializeField] SpriteRenderer spriteRenderer;
+    [SerializeField] SimpleObjectPool pool;
     // Start is called before the first frame update
     // Make a material field
     Material material;
@@ -28,7 +29,11 @@ public class Barrier : MonoBehaviour
             Destroy(collision.gameObject);
             Vector3 spawnpositon = UnityEngine.Random.insideUnitCircle * 0.5f;
             spawnpositon += collision.transform.position;
-            Instantiate(reflectProjectile, spawnpositon, Quaternion.Euler(0,0,angle));
+            //Instantiate(reflectProjectile, spawnpositon, Quaternion.Euler(0,0,angle));
+            var bullet = pool.Get();
+            bullet.transform.position = spawnpositon;
+            bullet.transform.rotation = Quaternion.Euler(0, 0, angle);
+            bullet.SetActive(true);
         }
 
     }

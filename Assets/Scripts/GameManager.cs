@@ -36,6 +36,7 @@ public class GameManager : MonoBehaviour
         {
             //SpawnEnemies(giant, 2);
             //yield return new WaitForSeconds(30f);
+            //1st minute monster patterns;
             SpawnEnemies(stormtrooper, 3 + spawnCounter + minutecounter);
             SpawnEnemies(supportrobot, 1 + minutecounter);
             SpawnEnemies(assaultrobot, 1 + minutecounter);
@@ -72,8 +73,71 @@ public class GameManager : MonoBehaviour
             minutecounter++;
             yield return new WaitForSeconds(10f);
 
-
-
+            //2nd minute
+            SpawnEnemies(assaultrobot, 5 + minutecounter);
+            SpawnEnemies(supportrobot, 3 + minutecounter);
+            SpawnEnemies(stormtrooper, 3 + spawnCounter + minutecounter);
+            spawnCounter++;
+            BonusSpawn();
+            yield return new WaitForSeconds(15f);
+            SpawnEnemies(assaultrobot, 6 + minutecounter);
+            SpawnEnemies(supportrobot, 3 + minutecounter);
+            SpawnEnemies(stormtrooper, 3 + spawnCounter + minutecounter);
+            spawnCounter++;
+            BonusSpawn();
+            yield return new WaitForSeconds(15f);
+            SpawnEnemies(assaultrobot, 6 + minutecounter);
+            SpawnEnemies(supportrobot, 3 + minutecounter);
+            SpawnEnemies(stormtrooper, 3 + spawnCounter + minutecounter);
+            spawnCounter++;
+            BonusSpawn();
+            yield return new WaitForSeconds(15f);
+            SpawnEnemies(assaultrobot, 7 + minutecounter);
+            SpawnEnemies(supportrobot, 3 + minutecounter);
+            SpawnEnemies(stormtrooper, 3 + spawnCounter + minutecounter);
+            spawnCounter++;
+            BonusSpawn();
+            yield return new WaitForSeconds(15f);
+            minutecounter++;
+            //3rd minute;
+            SpawnEnemies(assaultrobot, 5 + minutecounter);
+            SpawnEnemies(supportrobot, 5 + minutecounter);
+            SpawnEnemies(stormtrooper, 10 + spawnCounter + minutecounter);
+            spawnCounter++;
+            BonusSpawn();
+            yield return new WaitForSeconds(15f);
+            SpawnEnemies(assaultrobot, 6 + minutecounter);
+            SpawnEnemies(supportrobot, 5 + minutecounter);
+            SpawnEnemies(stormtrooper, 10 + spawnCounter + minutecounter);
+            spawnCounter++;
+            BonusSpawn();
+            yield return new WaitForSeconds(15f);
+            SpawnEnemies(assaultrobot, 6 + minutecounter);
+            SpawnEnemies(supportrobot, 5 + minutecounter);
+            SpawnEnemies(stormtrooper, 10 + spawnCounter + minutecounter);
+            spawnCounter++;
+            BonusSpawn();
+            yield return new WaitForSeconds(15f);
+            SpawnEnemies(assaultrobot, 7 + minutecounter);
+            SpawnEnemies(supportrobot, 5 + minutecounter);
+            SpawnEnemies(stormtrooper, 10 + spawnCounter + minutecounter);
+            spawnCounter++;
+            BonusSpawn();
+            yield return new WaitForSeconds(15f);
+            minutecounter++;
+            //4th minute
+            SpawnEnemies(assaultrobot, 10 + minutecounter);
+            SpawnEnemies(supportrobot, 10 + minutecounter);
+            SpawnEnemies(stormtrooper, 10 + spawnCounter + minutecounter);
+            spawnCounter++;
+            BonusSpawn();
+            yield return new WaitForSeconds(15f);
+            SpawnEnemies(assaultrobot, 10 + minutecounter);
+            SpawnEnemies(supportrobot, 10 + minutecounter);
+            SpawnEnemies(stormtrooper, 10 + spawnCounter + minutecounter);
+            spawnCounter++;
+            BonusSpawn();
+            //wait untill Boss spawn.
         }
     }
     void BonusSpawn()
