@@ -6,7 +6,7 @@ using UnityEngine.SceneManagement;
 using TMPro;
 using System.Collections.Specialized;
 using UnityEngine.UI;
-
+using System.Security.Cryptography.X509Certificates;
 
 public class Enemy : MonoBehaviour
 {   
@@ -18,11 +18,13 @@ public class Enemy : MonoBehaviour
     [SerializeField] Animator animator;
     [SerializeField] BoxCollider2D boxCollider2D;
     [SerializeField] GameObject chest;
+    
     // Make a material field
     Material material;
     GameRecord gameRecord;
     public GameObject[] Drops;
     public AudioSource enemydeath;
+    public AudioSource enemyMelee;
     public GameObject floatpoint;
     public GameObject crystal;
     public GameObject goldcoin;
@@ -124,16 +126,19 @@ public class Enemy : MonoBehaviour
 
 
     IEnumerator Invincible()
-    {
-     
+    {    
         EnemyInvincible = true;               
         EnemyspriteRenderer.color = UnityEngine.Color.red;
         yield return new WaitForSeconds(0.3f);
         EnemyspriteRenderer.color = UnityEngine.Color.white;      
         EnemyInvincible = false;
     }
-    
-void Update()
+    //Boss Melee function
+    public void BossMelee()
+    {
+        enemyMelee.Play();
+    }
+    void Update()
     {
         
         if(EnemyHealth <= 0 && CanEnrage == false)
@@ -187,7 +192,7 @@ void Update()
         }
         //Enemy fire
         if (Vector3.Distance(enemy.transform.position, player.transform.position) < 20 && Vector3.Distance(enemy.transform.position, player.transform.position) > 4 
-            && gunOnCd == false && CanFire == true && isdead == false && IsGaint == false)
+            && gunOnCd == false && CanFire == true && isdead == false && IsGaint == false && CanEnrage == false)
         {
             Vector3 v = player.transform.position - transform.position;
             v.z = 0;
@@ -196,7 +201,16 @@ void Update()
             gunOnCd = true;
             Instantiate(Projectile, transform.position, Quaternion.Euler(0,0,angle));
         }
-        
+        //Boss Melee
+        if(Vector3.Distance(enemy.transform.position, player.transform.position) < 5 && CanEnrage == true)
+        {   
+            animator.SetBool("MeleeAttack",true);
+        }else if(Vector3.Distance(enemy.transform.position, player.transform.position) > 6 && CanEnrage == true)
+        {
+            animator.SetBool("MeleeAttack", false);
+        }
+         
+        //Gunfire CD
         if (gunOnCd == true)
         {
             gunCD -= Time.deltaTime;
