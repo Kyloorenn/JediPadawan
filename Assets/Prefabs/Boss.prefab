@@ -184,6 +184,7 @@ MonoBehaviour:
   enemydeath: {fileID: 1047098230646054538}
   enemyMelee: {fileID: 5234083146454351809}
   floatpoint: {fileID: 2589495614517919289, guid: aedf8d7b90ce46345b5f87e6e803fbe1, type: 3}
+  meleeLight: {fileID: 106358727315254537, guid: df3c2a3e18596ba4d994fa802a665536, type: 3}
   crystal: {fileID: 537797513975347836, guid: a151eae87e10f2b4ba322b8be1f614ea, type: 3}
   goldcoin: {fileID: 3364976525046304597, guid: 00ac1af3bd772414e926511d02e1d095, type: 3}
   EnemyHealth: 80
@@ -5082,7 +5083,7 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: eb2b156f3364bf0478bff3b408136251, type: 3}
-  m_PlayOnAwake: 1
+  m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
   Loop: 0

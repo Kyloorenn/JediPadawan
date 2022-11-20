@@ -26,6 +26,7 @@ public class Enemy : MonoBehaviour
     public AudioSource enemydeath;
     public AudioSource enemyMelee;
     public GameObject floatpoint;
+    public GameObject meleeLight;
     public GameObject crystal;
     public GameObject goldcoin;
     GameObject player;
@@ -137,6 +138,16 @@ public class Enemy : MonoBehaviour
     public void BossMelee()
     {
         enemyMelee.Play();
+        if(transform.localScale.x == -1f)
+        {
+            Instantiate(meleeLight, enemy.transform.position + new Vector3(2.1f, 1f, 0), Quaternion.Euler(0, -180, 0));
+        }
+        else
+        {
+            Instantiate(meleeLight, enemy.transform.position + new Vector3(-2.1f, 1f, 0), Quaternion.Euler(0, 0, 0));
+            
+        }
+       
     }
     void Update()
     {
