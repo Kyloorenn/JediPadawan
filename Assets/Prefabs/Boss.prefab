@@ -187,6 +187,7 @@ MonoBehaviour:
   meleeLight: {fileID: 106358727315254537, guid: df3c2a3e18596ba4d994fa802a665536, type: 3}
   crystal: {fileID: 537797513975347836, guid: a151eae87e10f2b4ba322b8be1f614ea, type: 3}
   goldcoin: {fileID: 3364976525046304597, guid: 00ac1af3bd772414e926511d02e1d095, type: 3}
+  bossProjectile: {fileID: 8348822968903601387, guid: 042aee51308fa2042ac642bd5e9698b6, type: 3}
   EnemyHealth: 80
   gunCD: 3
   isdead: 0

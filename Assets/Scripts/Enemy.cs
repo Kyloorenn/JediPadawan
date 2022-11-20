@@ -29,6 +29,7 @@ public class Enemy : MonoBehaviour
     public GameObject meleeLight;
     public GameObject crystal;
     public GameObject goldcoin;
+    public GameObject bossProjectile;
     GameObject player;
     public int EnemyHealth;
     private int EnemyHealthMax;
@@ -146,8 +147,22 @@ public class Enemy : MonoBehaviour
         {
             Instantiate(meleeLight, enemy.transform.position + new Vector3(-2.1f, 1f, 0), Quaternion.Euler(0, 0, 0));
             
+        }       
+    }
+    public void BossFire()
+    {
+        Vector3 v = player.transform.position - transform.position;
+        v.z = 0;
+        float angle = Vector3.SignedAngle(Vector3.up, v, Vector3.forward);
+        if (transform.localScale.x == -1f)
+        {
+            Instantiate(bossProjectile, enemy.transform.position + new Vector3(1.7f, 1f, 0), Quaternion.Euler(0, -180, 270-angle ));
         }
-       
+        else
+        {
+            Instantiate(bossProjectile, enemy.transform.position + new Vector3(-1.7f, 1f, 0), Quaternion.Euler(0, 0, angle - 90));
+
+        }
     }
     void Update()
     {
@@ -220,7 +235,19 @@ public class Enemy : MonoBehaviour
         {
             animator.SetBool("MeleeAttack", false);
         }
-         
+        //Boss Fire
+        if (Vector3.Distance(enemy.transform.position, player.transform.position) > 7  && CanEnrage == true)
+        {
+            animator.SetBool("RangeAttack", true);
+        }
+        else if (Vector3.Distance(enemy.transform.position, player.transform.position) > 20 && CanEnrage == true)
+        {
+            animator.SetBool("RangeAttack", false);
+        }
+        else if (Vector3.Distance(enemy.transform.position, player.transform.position) < 6 && CanEnrage == true)
+        {
+            animator.SetBool("RangeAttack", false);
+        }
         //Gunfire CD
         if (gunOnCd == true)
         {
