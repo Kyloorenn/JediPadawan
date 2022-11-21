@@ -169,6 +169,7 @@ MonoBehaviour:
   - {fileID: 2279799202758837580, guid: ba2d8e31c37cea842a21a9fe78cf5baf, type: 3}
   enemydeath: {fileID: 6355922744083409144}
   enemyMelee: {fileID: -2278295816036172564}
+  enemyFire: {fileID: 6355922744083409144}
   floatpoint: {fileID: 2589495614517919289, guid: aedf8d7b90ce46345b5f87e6e803fbe1, type: 3}
   meleeLight: {fileID: 106358727315254537, guid: df3c2a3e18596ba4d994fa802a665536, type: 3}
   crystal: {fileID: 537797513975347836, guid: a151eae87e10f2b4ba322b8be1f614ea, type: 3}

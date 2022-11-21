@@ -25,6 +25,7 @@ public class Enemy : MonoBehaviour
     public GameObject[] Drops;
     public AudioSource enemydeath;
     public AudioSource enemyMelee;
+    public AudioSource enemyFire;  //Only add Boss enemy's firing audio source.  
     public GameObject floatpoint;
     public GameObject meleeLight;
     public GameObject crystal;
@@ -52,7 +53,9 @@ public class Enemy : MonoBehaviour
     public bool isTroop;
     public bool isAssault;
     public bool isSupport;
-    
+    //Boss fire limit
+    public int bossFireLimit = 3;
+    private float bossFireTimer = 4f; 
    
     void Start()
     {
@@ -147,22 +150,29 @@ public class Enemy : MonoBehaviour
         {
             Instantiate(meleeLight, enemy.transform.position + new Vector3(-2.1f, 1f, 0), Quaternion.Euler(0, 0, 0));
             
-        }       
+        }
+        
     }
     public void BossFire()
     {
         Vector3 v = player.transform.position - transform.position;
         v.z = 0;
         float angle = Vector3.SignedAngle(Vector3.up, v, Vector3.forward);
-        if (transform.localScale.x == -1f)
-        {
-            Instantiate(bossProjectile, enemy.transform.position + new Vector3(1.7f, 1f, 0), Quaternion.Euler(0, -180, 270-angle ));
-        }
-        else
-        {
-            Instantiate(bossProjectile, enemy.transform.position + new Vector3(-1.7f, 1f, 0), Quaternion.Euler(0, 0, angle - 90));
+       
+            if (transform.localScale.x == -1f)
+            {
+                Instantiate(bossProjectile, enemy.transform.position + new Vector3(1.7f, 1f, 0), Quaternion.Euler(0, -180, 270 - angle));
+                enemyFire.Play();
 
-        }
+            }
+            else
+            {
+                Instantiate(bossProjectile, enemy.transform.position + new Vector3(-1.7f, 1f, 0), Quaternion.Euler(0, 0, angle - 90));
+                enemyFire.Play();
+            }
+            bossFireLimit--;
+        
+       
     }
     void Update()
     {
@@ -228,7 +238,7 @@ public class Enemy : MonoBehaviour
             Instantiate(Projectile, transform.position, Quaternion.Euler(0,0,angle));
         }
         //Boss Melee
-        if(Vector3.Distance(enemy.transform.position, player.transform.position) < 5 && CanEnrage == true)
+        if(Vector3.Distance(enemy.transform.position, player.transform.position) < 5 && CanEnrage == true )
         {   
             animator.SetBool("MeleeAttack",true);
         }else if(Vector3.Distance(enemy.transform.position, player.transform.position) > 6 && CanEnrage == true)
@@ -236,17 +246,37 @@ public class Enemy : MonoBehaviour
             animator.SetBool("MeleeAttack", false);
         }
         //Boss Fire
-        if (Vector3.Distance(enemy.transform.position, player.transform.position) > 7  && CanEnrage == true)
-        {
-            animator.SetBool("RangeAttack", true);
+       
+        if (Vector3.Distance(enemy.transform.position, player.transform.position) > 7  && CanEnrage == true )
+        {   
+            if(bossFireLimit >= 1)
+            {
+                animator.SetBool("RangeAttack", true);
+                
+            }    
+            if (bossFireLimit <= 0)
+            {
+                animator.SetBool("RangeAttack", false);
+            }
         }
-        else if (Vector3.Distance(enemy.transform.position, player.transform.position) > 20 && CanEnrage == true)
+        
+         if (Vector3.Distance(enemy.transform.position, player.transform.position) > 20 && CanEnrage == true)
         {
             animator.SetBool("RangeAttack", false);
         }
         else if (Vector3.Distance(enemy.transform.position, player.transform.position) < 6 && CanEnrage == true)
         {
             animator.SetBool("RangeAttack", false);
+        }
+        //Boss reload
+        if(bossFireLimit < 3)
+        {
+            bossFireTimer -= Time.deltaTime;
+            if(bossFireTimer <= 0)
+            {
+                bossFireLimit = 3;
+                bossFireTimer = 5f;
+            }
         }
         //Gunfire CD
         if (gunOnCd == true)
