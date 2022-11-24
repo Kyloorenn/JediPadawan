@@ -39,5 +39,7 @@ Material:
     m_Ints: []
     m_Floats:
     - _Flash: 0
+    - _KillingSpree: 0
+    - _Upgrade: 0
     m_Colors: []
   m_BuildTextureStacks: []
