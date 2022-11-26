@@ -15,18 +15,23 @@ public class GameManager : MonoBehaviour
     [SerializeField] GameObject giant;
     [SerializeField] GameObject orb;
     [SerializeField] GameObject boss;
+    [SerializeField] SEnemyPool Spool;
+    [SerializeField] AEnemyPool Apool;
+    [SerializeField] EnemyPool Tpool;
     private int minutecounter = 0;
     private bool BossFight = false;
     int spawnCounter = 0;
     private IEnumerator coroutine;
-    int minute, second;
+    public int minute, second;
     PlayerCamera playerCamera;
+
     private void Start()
     {
         Player player = GetComponent<Player>();
         coroutine = SpawnEnemyCoroutine();
         StartCoroutine(coroutine);
         playerCamera = GameObject.FindGameObjectWithTag("MainCamera").GetComponent<PlayerCamera>();
+      
     }
 
    
@@ -37,104 +42,104 @@ public class GameManager : MonoBehaviour
             //SpawnEnemies(giant, 2);
             //yield return new WaitForSeconds(30f);
             //1st minute monster patterns;
-            SpawnEnemies(stormtrooper, 3 + spawnCounter + minutecounter);
-            SpawnEnemies(supportrobot, 1 + minutecounter);
-            SpawnEnemies(assaultrobot, 1 + minutecounter);
+            SpawnTEnemies(3 + spawnCounter + minutecounter);
+            SpawnSEnemies(1 + minutecounter);
+            SpawnAEnemies(1 + minutecounter);
             spawnCounter++;
             BonusSpawn();
             yield return new WaitForSeconds(10f);
 
-            SpawnEnemies(stormtrooper, 3 + minutecounter);
-            SpawnEnemies(supportrobot, 1 + spawnCounter + minutecounter);
-            SpawnEnemies(assaultrobot, 2 + minutecounter);
+            SpawnTEnemies(3 + minutecounter);
+            SpawnSEnemies(1 + spawnCounter + minutecounter);
+            SpawnAEnemies(2 + minutecounter);
             spawnCounter++;
             BonusSpawn();
             yield return new WaitForSeconds(15f);
 
-            SpawnEnemies(stormtrooper, 3 + spawnCounter + minutecounter);
-            SpawnEnemies(supportrobot, 1 + spawnCounter + minutecounter);
-            SpawnEnemies(assaultrobot, 1 + minutecounter);
+            SpawnTEnemies(3 + spawnCounter + minutecounter);
+            SpawnSEnemies(1 + spawnCounter + minutecounter);
+            SpawnAEnemies(1 + minutecounter);
             spawnCounter++;
             BonusSpawn();
             yield return new WaitForSeconds(10f);
 
-            SpawnEnemies(stormtrooper, 3 + minutecounter);
-            SpawnEnemies(supportrobot, 2 + minutecounter);
-            SpawnEnemies(assaultrobot, 2 + spawnCounter + minutecounter);
+            SpawnTEnemies(3 + minutecounter);
+            SpawnSEnemies(2 + minutecounter);
+            SpawnAEnemies(2 + spawnCounter + minutecounter);
             spawnCounter++;
             BonusSpawn();
             yield return new WaitForSeconds(15f);
 
-            SpawnEnemies(stormtrooper, 3 + spawnCounter + minutecounter);
-            SpawnEnemies(supportrobot, 1 + minutecounter);
-            SpawnEnemies(assaultrobot, 1 + minutecounter);
+            SpawnTEnemies( 3 + spawnCounter + minutecounter);
+            SpawnSEnemies( 1 + minutecounter);
+            SpawnAEnemies(1 + minutecounter);
             spawnCounter++;
             BonusSpawn();
             minutecounter++;
             yield return new WaitForSeconds(10f);
 
             //2nd minute
-            SpawnEnemies(assaultrobot, 5 + minutecounter);
-            SpawnEnemies(supportrobot, 3 + minutecounter);
-            SpawnEnemies(stormtrooper, 3 + spawnCounter + minutecounter);
+            SpawnAEnemies(5 + minutecounter);
+            SpawnSEnemies(3 + minutecounter);
+            SpawnTEnemies(3 + spawnCounter + minutecounter);
             spawnCounter++;
             BonusSpawn();
             yield return new WaitForSeconds(15f);
-            SpawnEnemies(assaultrobot, 6 + minutecounter);
-            SpawnEnemies(supportrobot, 3 + minutecounter);
-            SpawnEnemies(stormtrooper, 3 + spawnCounter + minutecounter);
+            SpawnAEnemies( 6 + minutecounter);
+            SpawnSEnemies( 3 + minutecounter);
+            SpawnTEnemies( 3 + spawnCounter + minutecounter);
             spawnCounter++;
             BonusSpawn();
             yield return new WaitForSeconds(15f);
-            SpawnEnemies(assaultrobot, 6 + minutecounter);
-            SpawnEnemies(supportrobot, 3 + minutecounter);
-            SpawnEnemies(stormtrooper, 3 + spawnCounter + minutecounter);
+            SpawnAEnemies( 6 + minutecounter);
+            SpawnSEnemies( 3 + minutecounter);
+            SpawnTEnemies( 3 + spawnCounter + minutecounter);
             spawnCounter++;
             BonusSpawn();
             yield return new WaitForSeconds(15f);
-            SpawnEnemies(assaultrobot, 7 + minutecounter);
-            SpawnEnemies(supportrobot, 3 + minutecounter);
-            SpawnEnemies(stormtrooper, 3 + spawnCounter + minutecounter);
+            SpawnAEnemies(7 + minutecounter);
+            SpawnSEnemies( 3 + minutecounter);
+            SpawnTEnemies(3 + spawnCounter + minutecounter);
             spawnCounter++;
             BonusSpawn();
             yield return new WaitForSeconds(15f);
             minutecounter++;
             //3rd minute;
-            SpawnEnemies(assaultrobot, 5 + minutecounter);
-            SpawnEnemies(supportrobot, 5 + minutecounter);
-            SpawnEnemies(stormtrooper, 10 + spawnCounter + minutecounter);
+            SpawnAEnemies( 5 + minutecounter);
+            SpawnSEnemies( 5 + minutecounter);
+            SpawnTEnemies( 10 + spawnCounter + minutecounter);
             spawnCounter++;
             BonusSpawn();
             yield return new WaitForSeconds(15f);
-            SpawnEnemies(assaultrobot, 6 + minutecounter);
-            SpawnEnemies(supportrobot, 5 + minutecounter);
-            SpawnEnemies(stormtrooper, 10 + spawnCounter + minutecounter);
+            SpawnAEnemies( 6 + minutecounter);
+            SpawnSEnemies(5 + minutecounter);
+            SpawnTEnemies(10 + spawnCounter + minutecounter);
             spawnCounter++;
             BonusSpawn();
             yield return new WaitForSeconds(15f);
-            SpawnEnemies(assaultrobot, 6 + minutecounter);
-            SpawnEnemies(supportrobot, 5 + minutecounter);
-            SpawnEnemies(stormtrooper, 10 + spawnCounter + minutecounter);
+            SpawnAEnemies(6 + minutecounter);
+            SpawnSEnemies(5 + minutecounter);
+            SpawnTEnemies(10 + spawnCounter + minutecounter);
             spawnCounter++;
             BonusSpawn();
             yield return new WaitForSeconds(15f);
-            SpawnEnemies(assaultrobot, 7 + minutecounter);
-            SpawnEnemies(supportrobot, 5 + minutecounter);
-            SpawnEnemies(stormtrooper, 10 + spawnCounter + minutecounter);
+            SpawnAEnemies(7 + minutecounter);
+            SpawnSEnemies( 5 + minutecounter);
+            SpawnTEnemies(10 + spawnCounter + minutecounter);
             spawnCounter++;
             BonusSpawn();
             yield return new WaitForSeconds(15f);
             minutecounter++;
             //4th minute
-            SpawnEnemies(assaultrobot, 10 + minutecounter);
-            SpawnEnemies(supportrobot, 10 + minutecounter);
-            SpawnEnemies(stormtrooper, 10 + spawnCounter + minutecounter);
+            SpawnAEnemies(10 + minutecounter);
+            SpawnSEnemies(10 + minutecounter);
+            SpawnTEnemies(10 + spawnCounter + minutecounter);
             spawnCounter++;
             BonusSpawn();
             yield return new WaitForSeconds(15f);
-            SpawnEnemies(assaultrobot, 10 + minutecounter);
-            SpawnEnemies(supportrobot, 10 + minutecounter);
-            SpawnEnemies(stormtrooper, 10 + spawnCounter + minutecounter);
+            SpawnAEnemies(10 + minutecounter);
+            SpawnSEnemies(10 + minutecounter);
+            SpawnTEnemies(10 + spawnCounter + minutecounter);
             spawnCounter++;
             BonusSpawn();
             //wait untill Boss spawn.
@@ -144,40 +149,80 @@ public class GameManager : MonoBehaviour
     {
         if (spawnCounter == 2)
         {
-            SpawnEnemies(stormtrooper, 3);         
+            SpawnTEnemies(3);         
         }
         if (spawnCounter == 4)
         {
-            SpawnEnemies(stormtrooper, 3);
-            SpawnEnemies(assaultrobot, 5);
+            SpawnTEnemies( 3);
+            SpawnAEnemies(5);
             spawnCounter = 0;
             Vector3 spawnPosition = UnityEngine.Random.insideUnitCircle.normalized * 3;
             spawnPosition += player.transform.position;
-            Instantiate(orb, spawnPosition, Quaternion.identity);
+            //Instantiate(orb, spawnPosition, Quaternion.identity);
         }
     }
 
-    void SpawnEnemies(GameObject enemyPrefab, int numberOfEnemies, bool Istracking = true)
+    void SpawnTEnemies(int numberOfEnemies, bool Istracking = true)
     {
   for (int i = 0; i<numberOfEnemies; i++)
     {
-       Enemy enemy = GetComponent<Enemy>();
+       
       Vector3 spawnPosition = UnityEngine.Random.insideUnitCircle.normalized * 8;
  
       spawnPosition += player.transform.position;
-       Instantiate(enemyPrefab, spawnPosition, Quaternion.identity);         
+     var tenemy = Tpool.Get();
+     tenemy.transform.position = spawnPosition;
+     tenemy.transform.rotation = Quaternion.identity;
+     tenemy.SetActive(true);
+    
+           
+       //Instantiate(enemyPrefab, spawnPosition, Quaternion.identity);         
      }
   }
 
+    void SpawnAEnemies(int numberOfEnemies, bool Istracking = true)
+    {
+        for (int i = 0; i < numberOfEnemies; i++)
+        {
+            
+            Vector3 spawnPosition = UnityEngine.Random.insideUnitCircle.normalized * 8;
 
-void SpawnBoss()
+            spawnPosition += player.transform.position;
+            var aenemy = Apool.Get();
+            aenemy.transform.position = spawnPosition;
+            aenemy.transform.rotation = Quaternion.identity;
+            aenemy.SetActive(true);
+           
+
+            //Instantiate(enemyPrefab, spawnPosition, Quaternion.identity);         
+        }
+    }
+    void SpawnSEnemies(int numberOfEnemies, bool Istracking = true)
+    {
+        for (int i = 0; i < numberOfEnemies; i++)
+        {
+            
+            Vector3 spawnPosition = UnityEngine.Random.insideUnitCircle.normalized * 8;
+
+            spawnPosition += player.transform.position;
+            var senemy = Spool.Get();
+            senemy.transform.position = spawnPosition;
+            senemy.transform.rotation = Quaternion.identity;
+            senemy.SetActive(true);
+            
+
+            //Instantiate(enemyPrefab, spawnPosition, Quaternion.identity);         
+        }
+    }
+
+    void SpawnBoss()
     {
         if(TimerText.text == "04:00" && BossFight == false)
         {   
             BossFight = true;
-            SpawnEnemies(stormtrooper, 3);
-            SpawnEnemies(supportrobot, 2);
-            SpawnEnemies(assaultrobot, 2);
+            SpawnTEnemies( 3);
+            SpawnSEnemies( 2);
+            SpawnAEnemies(2);
             StopCoroutine(SpawnEnemyCoroutine());
             Vector3 spawnPosition = UnityEngine.Random.insideUnitCircle.normalized * 15;
             spawnPosition += player.transform.position;

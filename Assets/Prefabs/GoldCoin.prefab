@@ -21,7 +21,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &7556810836981038817
 Transform:
   m_ObjectHideFlags: 0
@@ -123,7 +123,6 @@ MonoBehaviour:
   pickcoin: {fileID: -5703079913807331461}
   speed: 0.2
   coinItem: 1
-  coinNumber: 1
 --- !u!50 &-8260094316566087334
 Rigidbody2D:
   serializedVersion: 4

@@ -5,7 +5,7 @@ using UnityEngine;
 public class Projectile : MonoBehaviour
 {
     // Start is called before the first frame update
-    
+    private float timer = 5f;
     void Start()
     {
       
@@ -15,8 +15,15 @@ public class Projectile : MonoBehaviour
 
     void Update()
     {
+
+        timer -= Time.deltaTime;
         transform.position += transform.up * 10 * Time.deltaTime;
-        Destroy(gameObject, 3f);
+         if (timer <= 0f)
+            {
+                timer = 5f;
+                gameObject.SetActive(false);
+            }
+
     }
-   
+
 }

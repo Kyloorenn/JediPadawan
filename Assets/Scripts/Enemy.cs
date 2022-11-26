@@ -17,11 +17,13 @@ public class Enemy : MonoBehaviour
     [SerializeField] SpriteRenderer EnemyspriteRenderer;
     [SerializeField] Animator animator;
     [SerializeField] BoxCollider2D boxCollider2D;
-    [SerializeField] GameObject chest;
-    
+    [SerializeField] GameObject chest;    
+    Player playerData;
     // Make a material field
     Material material;
     GameRecord gameRecord;
+    ProjectilePool projectilePool;
+    CrystalPool crystalPool;
     public GameObject[] Drops;
     public AudioSource enemydeath;
     public AudioSource enemyMelee;
@@ -45,6 +47,7 @@ public class Enemy : MonoBehaviour
     public bool IsEnrage = false;
     public bool IsGaint = false;
     private float healthratio;
+   
     //Giant Info
     //float waitTimer = 2f;
     //float chaseTimer = 5f;
@@ -55,8 +58,10 @@ public class Enemy : MonoBehaviour
     public bool isSupport;
     //Boss fire limit
     public int bossFireLimit = 3;
-    private float bossFireTimer = 4f; 
-   
+    private float bossFireTimer = 4f;
+    //Normal Enemy shader parameter
+    private float fading = 1f;
+    private float enemyRatio;
     void Start()
     {
         gunOnCd = true;
@@ -64,7 +69,7 @@ public class Enemy : MonoBehaviour
         animator = GetComponent<Animator>();
         boxCollider2D = GetComponent<BoxCollider2D>();
         EnemyHealthMax = EnemyHealth;
-        if(CanEnrage == true)
+        if (CanEnrage == true)
         {
             deathcountdown = 10f;
             StartCoroutine(BossCameraCoroutine());
@@ -72,8 +77,11 @@ public class Enemy : MonoBehaviour
         //Assign the material from the sprite renderer to your field
         material = EnemyspriteRenderer.material;
         gameRecord = GameObject.FindGameObjectWithTag("Record").GetComponent<GameRecord>();
+        playerData = GameObject.FindGameObjectWithTag("Player").GetComponent<Player>();
+        projectilePool = GameObject.Find("ProjectilePool").GetComponent<ProjectilePool>();
+        crystalPool = GameObject.Find("CrystalPool").GetComponent<CrystalPool>();
     }
-   public void Damage(int damage)
+    public void Damage(int damage)
     {
         if (EnemyInvincible == false && isdead == false)
         {
@@ -109,6 +117,9 @@ public class Enemy : MonoBehaviour
                     gameRecord.boss_kill = true;
                     UnityEngine.Debug.Log("You kill a Boss.");
                 }
+                //increase the parameter of shader after player kills one enemy.
+                playerData.killingStreak++;
+               
 
                 boxCollider2D.enabled = false;
                 animator.SetTrigger("Dead");               
@@ -176,16 +187,29 @@ public class Enemy : MonoBehaviour
     }
     void Update()
     {
-        
+        //Update normal enemy health ratio
+        enemyRatio = EnemyHealth / EnemyHealthMax;
+        if(enemyRatio <= 0.8f && CanEnrage == false)
+        {
+            material.SetFloat("_Weak", 0.3f);
+        }else if(enemyRatio <= 0.3f && CanEnrage == false)
+        {
+            material.SetFloat("_Weak", 0.8f);
+        }
         if(EnemyHealth <= 0 && CanEnrage == false)
         {
             deathcountdown -= Time.deltaTime;
+            fading -= (Time.deltaTime * 0.67f);
+            material.SetFloat("_Fading", fading);
             if (deathcountdown <= 0)
             {               
                 Instantiate(Drops[UnityEngine.Random.Range(0, Drops.Length)], transform.position, Quaternion.identity);
-                Instantiate(crystal, transform.position, Quaternion.identity);
-               
-                Destroy(enemy);
+                //Instantiate(crystal, transform.position, Quaternion.identity);
+                var crystal = crystalPool.Get();
+                crystal.transform.position = transform.position;
+                crystal.transform.rotation = Quaternion.identity;
+                crystal.SetActive(true);
+                enemy.SetActive(false);
             }
         }
         if (EnemyHealth <= 0 && CanEnrage == true)
@@ -235,7 +259,11 @@ public class Enemy : MonoBehaviour
             float angle = Vector3.SignedAngle(Vector3.up, v, Vector3.forward);
 
             gunOnCd = true;
-            Instantiate(Projectile, transform.position, Quaternion.Euler(0,0,angle));
+            //Instantiate(Projectile, transform.position, Quaternion.Euler(0,0,angle));
+            var bullet = projectilePool.GetP();
+            bullet.transform.position = transform.position;
+            bullet.transform.rotation = Quaternion.Euler(0, 0, angle);
+            bullet.SetActive(true);
         }
         //Boss Melee
         if(Vector3.Distance(enemy.transform.position, player.transform.position) < 5 && CanEnrage == true )
@@ -294,5 +322,7 @@ public class Enemy : MonoBehaviour
             speed = 3.5f;
             gunOnCd = true;
         }
+
+        
     }
 }

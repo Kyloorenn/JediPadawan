@@ -22,7 +22,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &965005767674237720
 Transform:
   m_ObjectHideFlags: 0
@@ -58,7 +58,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
+  - {fileID: 2100000, guid: 8d69a92e58889634bb2657940380e152, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -128,7 +128,7 @@ MonoBehaviour:
   crystal: {fileID: 537797513975347836, guid: a151eae87e10f2b4ba322b8be1f614ea, type: 3}
   goldcoin: {fileID: 3364976525046304597, guid: 00ac1af3bd772414e926511d02e1d095, type: 3}
   bossProjectile: {fileID: 8348822968903601387, guid: 042aee51308fa2042ac642bd5e9698b6, type: 3}
-  EnemyHealth: 4
+  EnemyHealth: 5
   gunCD: 4
   isdead: 0
   CanFire: 0
@@ -138,6 +138,7 @@ MonoBehaviour:
   isTroop: 1
   isAssault: 0
   isSupport: 0
+  bossFireLimit: 3
 --- !u!61 &-7251998624977434573
 BoxCollider2D:
   m_ObjectHideFlags: 0

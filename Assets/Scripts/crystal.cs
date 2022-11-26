@@ -23,7 +23,7 @@ public class crystal : MonoBehaviour
         {
             gameRecord.exp_gained += 20;
             player.AddExp();
-            Destroy(gameObject);
+            gameObject.SetActive(false);
             
         }
     }

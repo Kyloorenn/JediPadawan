@@ -21,7 +21,7 @@ public class Player : MonoBehaviour
     [SerializeField] GameObject InventoryManager;
     [SerializeField] GameObject Settlement;
     // Make a material field
-    Material material;
+    public Material material;
     PlayerCamera playerCamera;
     public bool IsInvincible = false;
     public int PlayerHealth;
@@ -46,6 +46,12 @@ public class Player : MonoBehaviour
     public int SaberMax = 4;
     public int ThrowMax = 3;
     public bool inventoryOpen; //Inventory is open by pressing KeyCode "B".
+    public float killingStreak;
+
+
+
+
+
     void OnTriggerEnter2D(Collider2D collision)
     {
         Parry parry = GetComponent<Parry>();
@@ -136,8 +142,44 @@ public class Player : MonoBehaviour
         yield return new WaitForSeconds(0.4f);
         IsInvincible = false;
     }
-    //Button Settings
-    public void OnUpgrade1Click()
+    // color lerp after player chooses skill upgrade 
+    IEnumerator AfterUpgrade()
+    {
+        material.SetFloat("_Upgrade", 0.2f);
+        yield return new WaitForSeconds(0.3f);
+        material.SetFloat("_Upgrade", 0.4f);
+        yield return new WaitForSeconds(0.3f);
+        material.SetFloat("_Upgrade", 0.6f);
+        yield return new WaitForSeconds(0.3f);
+        material.SetFloat("_Upgrade", 0.8f);
+        yield return new WaitForSeconds(0.3f);
+        material.SetFloat("_Upgrade", 1f);
+        yield return new WaitForSeconds(0.6f);
+        material.SetFloat("_Upgrade", 0.8f);
+        yield return new WaitForSeconds(0.3f);
+        material.SetFloat("_Upgrade", 0.6f);
+        yield return new WaitForSeconds(0.3f);
+        material.SetFloat("_Upgrade", 0.4f);
+        yield return new WaitForSeconds(0.3f);
+        material.SetFloat("_Upgrade", 0.2f);
+        yield return new WaitForSeconds(0.3f);
+        material.SetFloat("_Upgrade", 0f);        
+    }
+    //control the shader parameter killingSpree by coroutine
+    IEnumerator StreakDown()
+    {
+        while (true)
+        {              
+                yield return new WaitForSeconds(2.5f);
+            if(killingStreak >= 1)
+            {
+                killingStreak--;
+            }                                    
+        }      
+    }
+    
+        //Button Settings
+        public void OnUpgrade1Click()
     {   
         if(SaberMax > 0)
         {
@@ -145,6 +187,7 @@ public class Player : MonoBehaviour
             Time.timeScale = 1;
             levelUpMenu.SetActive(false);
             SaberMax--;
+            StartCoroutine(AfterUpgrade());
         }
         else
         {
@@ -157,12 +200,14 @@ public class Player : MonoBehaviour
         weapons[2].LevelUP();
         Time.timeScale = 1;
         levelUpMenu.SetActive(false);
+        StartCoroutine(AfterUpgrade());
     }
     public void OnUpgrade3Click()
     {
         weapons[1].LevelUP();
         Time.timeScale = 1;
         levelUpMenu.SetActive(false);
+        StartCoroutine(AfterUpgrade());
     }
     public void OnUpgrade4Click()
     {
@@ -171,6 +216,7 @@ public class Player : MonoBehaviour
             weapons[3].LevelUP();
             Time.timeScale = 1;
             levelUpMenu.SetActive(false);
+            StartCoroutine(AfterUpgrade());
         }
         else
         {
@@ -206,7 +252,7 @@ public class Player : MonoBehaviour
         maxstamina += EnhancedHealth * 30;
         currentstamina = maxstamina;
 
-
+        StartCoroutine(StreakDown());
         Settlement.SetActive(false);
 
         for (int i = 0; i < ForceTalent ; i++)
@@ -363,5 +409,8 @@ public class Player : MonoBehaviour
             CloseInventory();
            
         }
+        material.SetFloat("_KillingSpree",killingStreak);
+       
+        
     }
 }
