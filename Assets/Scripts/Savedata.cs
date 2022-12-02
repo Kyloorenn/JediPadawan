@@ -11,4 +11,5 @@ public class SaveData
     public bool gameProcessing = true;
     public bool isone ;
     public bool istwo ;
+    public bool buyFighter;
 }

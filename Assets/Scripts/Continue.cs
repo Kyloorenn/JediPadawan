@@ -14,8 +14,12 @@ public class Continue : MonoBehaviour
         SceneManager.LoadScene("Game");
     }
     public void OnChoose2ButtonClick()
-    {
-        Titlemanage.saveData.istwo = true;
-        SceneManager.LoadScene("Game");
+    {   
+        if(Titlemanage.saveData.buyFighter == true)
+        {
+            Titlemanage.saveData.istwo = true;
+            SceneManager.LoadScene("Game");
+        }
+        
     }
 }

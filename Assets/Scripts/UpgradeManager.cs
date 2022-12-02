@@ -20,8 +20,9 @@ public class UpgradeManager : MonoBehaviour
     public int controlForceLv = 0; // permanent passive upgrade to decrease the cost of forceValue and the damage of force skill.
     public int EnhancedHealth = 0; //plus 30 health each level
     public int ForceTalent = 0; // get a random skill upgrade at the beginning of game.
+    public bool buyFighter = false;
     // Method is a function that belongs to class;
-  
+
     // Start is called before the first frame update
     void Start()
     {
@@ -29,6 +30,7 @@ public class UpgradeManager : MonoBehaviour
           controlForceLv = Titlemanage.saveData.controlForceLv;
           EnhancedHealth = Titlemanage.saveData.EnhancedHealth;
           ForceTalent = Titlemanage.saveData.ForceTalent;
+          buyFighter = Titlemanage.saveData.buyFighter;
     }
 
     public void OnUpgrade1Click()
@@ -70,6 +72,19 @@ public class UpgradeManager : MonoBehaviour
            coins -= 40 + ForceTalent * 40;
         }
     }
+    public void BuyFighterClick()
+    {
+        if (coins < 200  )
+        {
+            UpgradeError.SetActive(true);
+        }
+        else if( buyFighter == false)
+        {
+            buyFighter = true;
+            coins -= 200;
+        }
+    }
+
     public void OnReturnClick()
     {
         // Titlemanage.saveData.goldCoins = coins;
@@ -77,6 +92,7 @@ public class UpgradeManager : MonoBehaviour
         Titlemanage.saveData.controlForceLv = controlForceLv;
         Titlemanage.saveData.EnhancedHealth = EnhancedHealth;
         Titlemanage.saveData.ForceTalent = ForceTalent;
+        Titlemanage.saveData.buyFighter = buyFighter;
         SceneManager.LoadScene("Title");        
     }
     // Update is called once per frame
