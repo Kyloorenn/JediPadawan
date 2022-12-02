@@ -2825,6 +2825,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 1114307260854784742}
+  targets:
+  - {fileID: 1114307260854784742}
+  - {fileID: 1972159985}
   speed: 10
   volume: {fileID: 0}
   vignette: {fileID: 0}
@@ -40413,6 +40416,8 @@ MonoBehaviour:
   ThrowMax: 3
   inventoryOpen: 0
   killingStreak: 0
+  one: 0
+  two: 1
 --- !u!1001 &1995331268
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -45897,6 +45902,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8459561057825330452, guid: 9bbecb366a1c41e419e62bcada99356e, type: 3}
       propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8459561057825330454, guid: 9bbecb366a1c41e419e62bcada99356e, type: 3}
+      propertyPath: one
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8459561057825330454, guid: 9bbecb366a1c41e419e62bcada99356e, type: 3}

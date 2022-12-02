@@ -47,7 +47,10 @@ public class Player : MonoBehaviour
     public int ThrowMax = 3;
     public bool inventoryOpen; //Inventory is open by pressing KeyCode "B".
     public float killingStreak;
-
+    //character #1 or character #2
+    public bool one = false;
+    public bool two = false;
+    
 
 
 

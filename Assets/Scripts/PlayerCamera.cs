@@ -8,6 +8,7 @@ using UnityEngine.Rendering.Universal;
 public class PlayerCamera : MonoBehaviour
 {
     [SerializeField] public Transform target;
+    [SerializeField] Transform[] targets;
     [SerializeField] public float speed = 10f;
     private ParticleSystem ps;
     Player player;
@@ -31,6 +32,14 @@ public class PlayerCamera : MonoBehaviour
         /* postProcessVolume = GetComponent<PostProcessVolume>();
          postProcessVolume.profile.TryGetSettings(out UnityEngine.Rendering.PostProcessing.DepthOfField depthOfField);
          depthOfField.focusDistance.value = 0.1f; */
+        if (player.one == true)
+        {
+            target = targets[0];
+        }
+        if(player.two == true)
+        {
+            target = targets[1];
+        }
     }
 
     public void ParryColor()
@@ -67,10 +76,11 @@ public class PlayerCamera : MonoBehaviour
         {
             return;
         }
-       var targetPosition = new Vector3(target.position.x, target.position.y, -10);
-       transform.position = Vector3.MoveTowards(transform.position, targetPosition,speed * Time.unscaledDeltaTime);
+        
+        var targetPosition = new Vector3(target.position.x, target.position.y, -10);
+        transform.position = Vector3.MoveTowards(transform.position, targetPosition, speed * Time.unscaledDeltaTime);
 
-        if(splitToning.balance.value >= -100f)
+        if (splitToning.balance.value >= -100f)
         {
             splitToning.balance.value -= 25f * Time.deltaTime;
 
