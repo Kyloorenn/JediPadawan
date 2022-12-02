@@ -32,11 +32,11 @@ public class PlayerCamera : MonoBehaviour
         /* postProcessVolume = GetComponent<PostProcessVolume>();
          postProcessVolume.profile.TryGetSettings(out UnityEngine.Rendering.PostProcessing.DepthOfField depthOfField);
          depthOfField.focusDistance.value = 0.1f; */
-        if (player.one == true)
+        if (Titlemanage.saveData.isone == true)
         {
             target = targets[0];
         }
-        if(player.two == true)
+        else
         {
             target = targets[1];
         }

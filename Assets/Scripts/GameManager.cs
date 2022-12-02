@@ -6,8 +6,9 @@ using TMPro;
 using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
-{
-    [SerializeField] TMP_Text TimerText;  
+{   
+    [SerializeField] TMP_Text TimerText;
+    [SerializeField] GameObject[] characters;
     [SerializeField] GameObject stormtrooper;
     [SerializeField] GameObject assaultrobot;
     [SerializeField] GameObject player;
@@ -27,11 +28,19 @@ public class GameManager : MonoBehaviour
 
     private void Start()
     {
-        Player player = GetComponent<Player>();
+        //Player player = GetComponent<Player>();
         coroutine = SpawnEnemyCoroutine();
         StartCoroutine(coroutine);
         playerCamera = GameObject.FindGameObjectWithTag("MainCamera").GetComponent<PlayerCamera>();
-      
+      if (Titlemanage.saveData.isone == true)
+        {
+            characters[1].SetActive(false);
+        }
+        else
+        {
+            characters[0].SetActive(false);
+        }
+           
     }
 
    

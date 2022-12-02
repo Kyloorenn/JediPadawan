@@ -304,6 +304,11 @@ public class Player : MonoBehaviour
     }
     void Update()
     {   
+        //current health can not be more than maxHP
+        if(PlayerHealth > maxHP)
+        {
+            PlayerHealth = maxHP;
+        }
         //change main camera's lensblur when the game is paused
         if(Time.timeScale == 1)
         {

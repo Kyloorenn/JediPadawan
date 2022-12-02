@@ -13,21 +13,21 @@ public class Blaster : BaseWeapon
     public float CD = 5;
     bool isOpen = false;
     public AudioSource blasterattack;
-
+    Player player;
     [SerializeField] SimpleObjectPool pool;
 
     void Start()
     {
-        //StartCoroutine(SpawnBulletCoroutine());
+       
+        player = GameObject.FindGameObjectWithTag("Player").GetComponent<Player>();
     }
     IEnumerator SpawnBulletCoroutine()
     {
-        while (true)
-        {
-            yield return new WaitForSeconds(0.1f);
-            for (int i = 0; i < 20; i++)
+        
+            yield return new WaitForSeconds(0.3f);
+            for (int i = 0; i < 5; i++)
             {
-                angle = UnityEngine.Random.Range(20, 100);
+                angle = UnityEngine.Random.Range(60, 100);
                 if (Player.transform.localRotation.y != 0)
                 {
                     angle *= -1;
@@ -37,7 +37,7 @@ public class Blaster : BaseWeapon
                 bullet.transform.rotation = Quaternion.Euler(0, 0, angle);
                 bullet.SetActive(true);
             }
-        }
+        
     }
     // Update is called once per frame
     void Update()
@@ -73,6 +73,14 @@ public class Blaster : BaseWeapon
             CD = 5;
             isOpen = false;
         }
-
+        if(player.two == true && Input.GetKey(KeyCode.X))
+        {
+            StartCoroutine(SpawnBulletCoroutine());
+            player.forceValue -= Time.deltaTime * 30;
+        }
+        else
+        {
+            StopCoroutine(SpawnBulletCoroutine());
+        }
     }
 }
