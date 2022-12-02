@@ -15,7 +15,8 @@ public class Titlemanage : MonoBehaviour
     TitleCamera titleCamera;
     [SerializeField] GameObject processingManager;
     private bool menuOpen;
-   
+    private bool cstart, cupgrade, cquit;
+    private float loadtimer = 2.75f;
     // Method is a function that belongs to class;
     public static SaveData saveData;
     string SavePath => Path.Combine(Application.persistentDataPath, "save.data");
@@ -77,20 +78,28 @@ public class Titlemanage : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+        Time.timeScale = 1;
         titleCamera = GameObject.FindGameObjectWithTag("MainCamera").GetComponent<TitleCamera>(); //use method from TitleCamera;
+        titleCamera.isStart = false;
+        cstart = false;
+        cupgrade = false;
+        cquit = false;
+        
     }
     //Button Click
     public void OnStartButtonClick()
     {
         titleCamera.isStart = true;
-        StartCoroutine(OnStart());
+        
+        cstart = true;
+
            
     }
       public void OnUpgradeButtonClick()
     {
         titleCamera.isStart = true;
-        StartCoroutine(Upgrade());
+        cupgrade = true;
+       
     }
     public void OnShopButtonClick()
     {   
@@ -100,7 +109,7 @@ public class Titlemanage : MonoBehaviour
     public void OnQuitButtonClick()
     {
         titleCamera.isStart = true;
-        StartCoroutine(Quit());
+        cquit = true;
     }
 
     public void OnPostProcessingClick()
@@ -130,21 +139,21 @@ public class Titlemanage : MonoBehaviour
         }
     }
     //Coroutine
-    IEnumerator OnStart()
-    {
-        yield return new WaitForSeconds(2.75f);
-        SceneManager.LoadScene("Continue");
-    }
-    IEnumerator Upgrade()
-    {
-        yield return new WaitForSeconds(2.75f);
-        SceneManager.LoadScene("Upgrade");
-    }
-    IEnumerator Quit()
-    {
-        yield return new WaitForSeconds(2.75f);
-        Application.Quit();
-    }
+    //IEnumerator OnStart()
+    //{
+    //    yield return new WaitForSeconds(2.75f);
+    //    SceneManager.LoadScene("Continue");
+    //}
+    //IEnumerator Upgrade()
+    //{
+    //    yield return new WaitForSeconds(2.75f);
+    //    SceneManager.LoadScene("Upgrade");
+    //}
+    //IEnumerator Quit()
+    //{
+    //    yield return new WaitForSeconds(2.75f);
+    //    Application.Quit();
+    //}
    
     private void Update()
     {
@@ -161,6 +170,26 @@ public class Titlemanage : MonoBehaviour
                 menuOpen = false;
             }
            
+        }
+        if(cstart == true || cupgrade == true || cquit == true)
+        {
+            loadtimer -= Time.deltaTime;
+            if(loadtimer <= 0f)
+            {
+                if(cstart == true)
+                {   
+                    loadtimer = 2.75f;
+                    SceneManager.LoadScene("Continue");
+                }else if(cupgrade == true)
+                {
+                    loadtimer = 2.75f;
+                    SceneManager.LoadScene("Upgrade");
+                }else if (cquit)
+                {
+                    loadtimer = 2.75f;
+                    Application.Quit();
+                }
+            }
         }
     }
     
