@@ -11391,6 +11391,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   player: {fileID: 308789575}
   HPBar: {fileID: 472362941}
+  players:
+  - {fileID: 308789575}
+  - {fileID: 1972159988}
 --- !u!1 &1358699991
 GameObject:
   m_ObjectHideFlags: 0
@@ -40250,7 +40253,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!212 &1972159984
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -45902,7 +45905,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8459561057825330452, guid: 9bbecb366a1c41e419e62bcada99356e, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8459561057825330454, guid: 9bbecb366a1c41e419e62bcada99356e, type: 3}
       propertyPath: one

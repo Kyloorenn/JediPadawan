@@ -8,6 +8,13 @@ public class PlayerHPBar : MonoBehaviour
 {
     [SerializeField] Player player;
     [SerializeField] Image HPBar;
+    [SerializeField] Player[] players;
+
+    void Start()
+    {
+        player = GameObject.FindGameObjectWithTag("Player").GetComponent<Player>();
+        
+    }
     // Start is called before the first frame update
     void Update()
     {
