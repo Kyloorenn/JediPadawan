@@ -77,6 +77,7 @@ public class UpgradeManager : MonoBehaviour
         if (coins < 200  )
         {
             UpgradeError.SetActive(true);
+            //buyFighter = false;
         }
         else if( buyFighter == false)
         {

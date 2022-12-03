@@ -23,7 +23,7 @@ public class Choose2 : MonoBehaviour
         }
         else
         {
-            choice.text = "UNLOCKED";
+            choice.text = "LOCKED";
         }
     }
 }

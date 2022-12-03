@@ -18,7 +18,7 @@ public class HealTool : BaseWeapon
     {
         if (Input.GetKeyDown(KeyCode.Space)&& ready == true)
         {
-            player.PlayerHealth += (int)(0.3 * player.maxHP);
+            player.PlayerHealth += (int)(0.1*(3+level) * player.maxHP);
             ready = false;
         }
         if(ready == false)
@@ -28,6 +28,7 @@ public class HealTool : BaseWeapon
         if(cooldown <= 0f)
         {
             ready = true;
+            cooldown = 8f - (int)(0.5 * level);
         }
     }
 }

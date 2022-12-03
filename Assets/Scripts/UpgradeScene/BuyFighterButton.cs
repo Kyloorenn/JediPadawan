@@ -22,5 +22,10 @@ public class BuyFighterButton : MonoBehaviour
         {
             locked.text = "UNLOCKED";
         }
+        else
+        {
+            locked.text = "LOCKED";
+        }
+
     }
 }

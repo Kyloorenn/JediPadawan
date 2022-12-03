@@ -236,6 +236,25 @@ public class Player : MonoBehaviour
         Titlemanage.saveData.goldCoins = coins;
         SceneManager.LoadScene("Title");
     }
+    //Fighter upgrade button
+    public void UpgradeClick()
+    {
+        weapons[0].LevelUP();
+        Time.timeScale = 1;
+        levelUpMenu.SetActive(false);
+    }
+    public void Upgrade2Click()
+    {
+        weapons[1].LevelUP();
+        Time.timeScale = 1;
+        levelUpMenu.SetActive(false);
+    }
+    public void Upgrade3Click()
+    {
+        weapons[2].LevelUP();
+        Time.timeScale = 1;
+        levelUpMenu.SetActive(false);
+    }
     private void Start()
     {   
         //persistence

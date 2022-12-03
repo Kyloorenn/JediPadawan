@@ -7,7 +7,7 @@ public class Missile : BaseWeapon
     [SerializeField] GameObject rocketMissile;
     [SerializeField] GameObject Player;
     private float angle;
-    public float CD = 6;
+    public float CD = 7;
     bool isOpen = false;
     public AudioSource blasterattack;
 
@@ -37,9 +37,8 @@ public class Missile : BaseWeapon
         }
 
         if (CD <= 0)
-        {
-           
-            CD = 6;
+        {           
+            CD = 7 - level;
             isOpen = false;
         }
     }
