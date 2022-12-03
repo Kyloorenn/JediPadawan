@@ -953,9 +953,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 308789575}
+      - m_Target: {fileID: 1972159988}
         m_TargetAssemblyTypeName: Player, Assembly-CSharp
-        m_MethodName: OnUpgrade4Click
+        m_MethodName: Upgrade3Click
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -2305,9 +2305,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 308789575}
+      - m_Target: {fileID: 1972159988}
         m_TargetAssemblyTypeName: Player, Assembly-CSharp
-        m_MethodName: OnUpgrade2Click
+        m_MethodName: UpgradeClick
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -3283,7 +3283,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 519420028}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 2.535, y: 2.058, z: -11.28}
+  m_LocalPosition: {x: 3.993, y: 2.058, z: -11.28}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -8766,7 +8766,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 633366090}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -1.5045257, y: -0.38368595, z: -0.10251871}
+  m_LocalPosition: {x: -0.046525717, y: -0.38368595, z: -0.10251871}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -12169,7 +12169,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1351119589
 RectTransform:
   m_ObjectHideFlags: 0
@@ -34034,7 +34034,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2711707012777103854, guid: 19179bd9265e1664aac29ad6f9158b89, type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 2711707012777103854, guid: 19179bd9265e1664aac29ad6f9158b89, type: 3}
       propertyPath: m_LocalPosition.x
@@ -39824,9 +39824,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 308789575}
+      - m_Target: {fileID: 1972159988}
         m_TargetAssemblyTypeName: Player, Assembly-CSharp
-        m_MethodName: OnUpgrade3Click
+        m_MethodName: Upgrade2Click
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -41905,7 +41905,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1972159983}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 4.06, y: 2.1, z: 0}
+  m_LocalPosition: {x: 3.176, y: 2.004, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:

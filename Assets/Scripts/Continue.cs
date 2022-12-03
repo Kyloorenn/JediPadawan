@@ -3,7 +3,12 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 public class Continue : MonoBehaviour
-{
+{   
+    private void Start()
+    {
+        Titlemanage.saveData.isone = false;
+        Titlemanage.saveData.istwo = false;
+    }
     public void OnReturnButtonClick()
     {
         SceneManager.LoadScene("Title");

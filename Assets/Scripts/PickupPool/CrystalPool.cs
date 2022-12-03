@@ -10,12 +10,12 @@ public class CrystalPool : MonoBehaviour
     int crystalIndex;
     private void Awake()
     {
-        for (int i = 0; i < 30; i++)
+        for (int i = 0; i < 100; i++)
         {
             pooledcrystal.Add(Instantiate(crystalPrefab));
             crystalPrefab.SetActive(false);
         }
-        for (int i = 0; i < 30; i++)
+        for (int i = 0; i < 100; i++)
         {
             GameObject b = GameObject.Find("CrystalPool");
             GameObject a = pooledcrystal[i];
@@ -27,16 +27,17 @@ public class CrystalPool : MonoBehaviour
     {
         crystalIndex %= pooledcrystal.Count;
         var result = pooledcrystal[crystalIndex++];
-        if (!result.activeInHierarchy)
-        {
-            return result;
-        }
-        else
-        {
-            //add one more
-            pooledcrystal.Add(Instantiate(crystalPrefab));
-            return crystalPrefab;
-        }
+        //if (!result.activeInHierarchy)
+        //{
+        //    return result;
+        //}
+        //else
+        //{
+        //    //add one more
+        //    pooledcrystal.Add(Instantiate(crystalPrefab));
+        //    return crystalPrefab;
+        //}
+        return result;
     }
     // Start is called before the first frame update
     void Start()

@@ -32,15 +32,25 @@ public class GameManager : MonoBehaviour
         coroutine = SpawnEnemyCoroutine();
         StartCoroutine(coroutine);
         playerCamera = GameObject.FindGameObjectWithTag("MainCamera").GetComponent<PlayerCamera>();
-      if (Titlemanage.saveData.isone == true)
+
+
+        if (Titlemanage.saveData.isone == true)
         {
             characters[1].SetActive(false);
         }
-        else
+
+        if (Titlemanage.saveData.istwo == true)
         {
             characters[0].SetActive(false);
         }
-           
+        if (Titlemanage.saveData.isone == true)
+        {
+            UnityEngine.Debug.Log("the one. ");
+        }
+        if (Titlemanage.saveData.istwo == true)
+        {
+            UnityEngine.Debug.Log("the two. ");
+        }
     }
 
    
