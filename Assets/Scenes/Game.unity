@@ -11924,7 +11924,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0f1a86055f0d98247b8e65176b341f52, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 308789575}
   coinsNumber: {fileID: 1296480970}
 --- !u!1 &1298051033
 GameObject:
@@ -33851,7 +33850,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1372257645
 RectTransform:
   m_ObjectHideFlags: 0

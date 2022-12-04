@@ -11,12 +11,12 @@ public class SEnemyPool : MonoBehaviour
     int enemyIndex;
     private void Awake()
     {
-        for (int i = 0; i < 30; i++)
+        for (int i = 0; i < 300; i++)
         {
             pooledEnemies.Add(Instantiate(troopersPrefab));
             troopersPrefab.SetActive(false);
         }
-        for (int i = 0; i < 30; i++)
+        for (int i = 0; i < 300; i++)
         {
             GameObject b = GameObject.Find("SEnemyPool");
             GameObject a = pooledEnemies[i];
