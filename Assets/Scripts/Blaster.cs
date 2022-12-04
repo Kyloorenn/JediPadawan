@@ -67,9 +67,15 @@ public class Blaster : BaseWeapon
             CD -= Time.deltaTime;
         }
 
-        if (CD <= 0)
+        if (CD <= 0 && player.one == true)
         {
             AttackNumber = 2 + level;
+            CD = 5;
+            isOpen = false;
+        }
+        if(CD <= 0 && player.two == true)
+        {
+            AttackNumber = 10 + 2*level;
             CD = 5;
             isOpen = false;
         }

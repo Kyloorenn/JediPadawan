@@ -201,6 +201,7 @@ public class Enemy : MonoBehaviour
             deathcountdown -= Time.deltaTime;
             fading -= (Time.deltaTime * 0.67f);
             material.SetFloat("_Fading", fading);
+          
             if (deathcountdown <= 0)
             {               
                 Instantiate(Drops[UnityEngine.Random.Range(0, Drops.Length)], transform.position, Quaternion.identity);

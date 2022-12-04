@@ -27,17 +27,17 @@ public class CrystalPool : MonoBehaviour
     {
         crystalIndex %= pooledcrystal.Count;
         var result = pooledcrystal[crystalIndex++];
-        //if (!result.activeInHierarchy)
-        //{
-        //    return result;
-        //}
-        //else
-        //{
-        //    //add one more
-        //    pooledcrystal.Add(Instantiate(crystalPrefab));
-        //    return crystalPrefab;
-        //}
-        return result;
+        if (!result.activeInHierarchy && result != null)
+        {
+            return result;
+        }
+        else
+        {
+            //add one more
+            pooledcrystal.Add(Instantiate(crystalPrefab));
+            return crystalPrefab;
+        }
+
     }
     // Start is called before the first frame update
     void Start()

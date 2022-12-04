@@ -7,12 +7,12 @@ using UnityEngine.UI;
 
 public class GameCoinsDisplay : MonoBehaviour
 {
-    [SerializeField] Player player;
+    Player player;
     [SerializeField] TMP_Text coinsNumber;
     // Start is called before the first frame update
     void Start()
     {
-
+        player = GameObject.FindGameObjectWithTag("Player").GetComponent<Player>();
     }
 
     // Update is called once per frame

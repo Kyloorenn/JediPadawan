@@ -32,7 +32,7 @@ public class GameManager : MonoBehaviour
         coroutine = SpawnEnemyCoroutine();
         StartCoroutine(coroutine);
         playerCamera = GameObject.FindGameObjectWithTag("MainCamera").GetComponent<PlayerCamera>();
-
+        playerCamera.volume.enabled = Titlemanage.saveData.gameProcessing;
 
         if (Titlemanage.saveData.isone == true)
         {
@@ -239,8 +239,8 @@ public class GameManager : MonoBehaviour
         if(TimerText.text == "04:00" && BossFight == false)
         {   
             BossFight = true;
-            SpawnTEnemies( 3);
-            SpawnSEnemies( 2);
+            SpawnTEnemies(3);
+            SpawnSEnemies(2);
             SpawnAEnemies(2);
             StopCoroutine(SpawnEnemyCoroutine());
             Vector3 spawnPosition = UnityEngine.Random.insideUnitCircle.normalized * 15;
@@ -253,7 +253,7 @@ public class GameManager : MonoBehaviour
    
     private void Update()
     {
-        playerCamera.volume.enabled = Titlemanage.saveData.gameProcessing;
+       
         int seconds = (int)Time.timeSinceLevelLoad;
         minute = seconds / 60;
         second = seconds % 60;

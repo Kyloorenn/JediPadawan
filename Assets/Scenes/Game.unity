@@ -9052,7 +9052,7 @@ MonoBehaviour:
   level: 0
   BlasterBullet: {fileID: 1013249847238173580, guid: 78f878b10b04f0d48982804c59192995, type: 3}
   Player: {fileID: 1972159983}
-  AttackNumber: 5
+  AttackNumber: 10
   CD: 3
   blasterattack: {fileID: 694503699}
   pool: {fileID: 1825627567}
