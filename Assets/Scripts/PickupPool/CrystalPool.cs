@@ -27,7 +27,7 @@ public class CrystalPool : MonoBehaviour
     {
         crystalIndex %= pooledcrystal.Count;
         var result = pooledcrystal[crystalIndex++];
-        if (!result.activeInHierarchy && result != null)
+        if (result != null && !result.activeInHierarchy  )
         {
             return result;
         }
