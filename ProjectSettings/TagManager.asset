@@ -14,6 +14,7 @@ TagManager:
   - collector
   - Record
   - Manager
+  - Portal
   layers:
   - Default
   - TransparentFX

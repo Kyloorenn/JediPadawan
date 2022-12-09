@@ -175,6 +175,7 @@ MonoBehaviour:
   crystal: {fileID: 537797513975347836, guid: a151eae87e10f2b4ba322b8be1f614ea, type: 3}
   goldcoin: {fileID: 3364976525046304597, guid: 00ac1af3bd772414e926511d02e1d095, type: 3}
   bossProjectile: {fileID: 8348822968903601387, guid: 042aee51308fa2042ac642bd5e9698b6, type: 3}
+  portal: {fileID: 1793019169434196781, guid: 3ef828cec73768443b0d1ab6e40b6b5c, type: 3}
   EnemyHealth: 8
   gunCD: 4
   isdead: 0

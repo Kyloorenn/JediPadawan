@@ -7,6 +7,18 @@ public class ExpBar : MonoBehaviour
     [SerializeField] Player player;
     [SerializeField] Image foreground;
 
+    private void Start()
+    {
+        if (!player && Titlemanage.saveData.isone == true)
+        {
+            player = GameObject.Find("Padawan").GetComponent<Player>();
+
+        }
+        else if(!player && Titlemanage.saveData.istwo == true)
+        {
+            player = GameObject.Find("Fighter").GetComponent<Player>();
+        }
+    }
     private void Update()
     {
         float expRatio =  (float)player.currentEXP/player.expToLevel;

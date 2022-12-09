@@ -11,6 +11,13 @@ public class AxeIcon : MonoBehaviour
     [SerializeField] Image axeicon;
     [SerializeField] Blaster blaster;
     // Update is called once per frame
+    void Start()
+    {
+        if (!blaster)
+        {
+            gameObject.SetActive(false);
+        }
+    }
     void Update()
     {
         

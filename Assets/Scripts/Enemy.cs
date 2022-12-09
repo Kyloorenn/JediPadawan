@@ -33,6 +33,7 @@ public class Enemy : MonoBehaviour
     public GameObject crystal;
     public GameObject goldcoin;
     public GameObject bossProjectile;
+    public GameObject portal;
     GameObject player;
     public int EnemyHealth;
     private int EnemyHealthMax;
@@ -222,6 +223,7 @@ public class Enemy : MonoBehaviour
                 
                 Instantiate(Drops[UnityEngine.Random.Range(0, Drops.Length)], transform.position , Quaternion.identity);
                 Instantiate(chest, transform.position + new Vector3(0, 0.8f, 0), Quaternion.identity);
+                Instantiate(portal, transform.position + new Vector3(10,0,0), Quaternion.identity);
                 Destroy(enemy);
             }
         }

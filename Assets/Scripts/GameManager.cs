@@ -28,29 +28,44 @@ public class GameManager : MonoBehaviour
 
     private void Start()
     {
+        if (!player && Titlemanage.saveData.isone == true)
+        {
+            player = GameObject.Find("Padawan");
+
+        }
+        else if (!player && Titlemanage.saveData.istwo == true)
+        {
+            player = GameObject.Find("Fighter");
+        }
         //Player player = GetComponent<Player>();
         coroutine = SpawnEnemyCoroutine();
         StartCoroutine(coroutine);
         playerCamera = GameObject.FindGameObjectWithTag("MainCamera").GetComponent<PlayerCamera>();
         playerCamera.volume.enabled = Titlemanage.saveData.gameProcessing;
 
-        if (Titlemanage.saveData.isone == true)
+        
+        if(Titlemanage.saveData.leveltwo == false)
         {
-            characters[1].SetActive(false);
+            if (Titlemanage.saveData.isone == true)
+            {
+                characters[1].SetActive(false);
+            }
+            if (Titlemanage.saveData.istwo == true)
+            {
+                characters[0].SetActive(false);
+            }
+            if (Titlemanage.saveData.isone == true)
+            {
+                UnityEngine.Debug.Log("the one. ");
+            }
+            if (Titlemanage.saveData.istwo == true)
+            {
+                UnityEngine.Debug.Log("the two. ");
+            }
         }
+       
 
-        if (Titlemanage.saveData.istwo == true)
-        {
-            characters[0].SetActive(false);
-        }
-        if (Titlemanage.saveData.isone == true)
-        {
-            UnityEngine.Debug.Log("the one. ");
-        }
-        if (Titlemanage.saveData.istwo == true)
-        {
-            UnityEngine.Debug.Log("the two. ");
-        }
+    
     }
 
    
@@ -61,107 +76,137 @@ public class GameManager : MonoBehaviour
             //SpawnEnemies(giant, 2);
             //yield return new WaitForSeconds(30f);
             //1st minute monster patterns;
-            SpawnTEnemies(3 + spawnCounter + minutecounter);
-            SpawnSEnemies(1 + minutecounter);
-            SpawnAEnemies(1 + minutecounter);
-            spawnCounter++;
-            BonusSpawn();
-            yield return new WaitForSeconds(10f);
+            if (Titlemanage.saveData.leveltwo == false)
+            {
 
-            SpawnTEnemies(3 + minutecounter);
-            SpawnSEnemies(1 + spawnCounter + minutecounter);
-            SpawnAEnemies(2 + minutecounter);
-            spawnCounter++;
-            BonusSpawn();
-            yield return new WaitForSeconds(15f);
 
-            SpawnTEnemies(3 + spawnCounter + minutecounter);
-            SpawnSEnemies(1 + spawnCounter + minutecounter);
-            SpawnAEnemies(1 + minutecounter);
-            spawnCounter++;
-            BonusSpawn();
-            yield return new WaitForSeconds(10f);
+                SpawnTEnemies(3 + spawnCounter + minutecounter);
+                SpawnSEnemies(1 + minutecounter);
+                SpawnAEnemies(1 + minutecounter);
+                spawnCounter++;
+                BonusSpawn();
+                yield return new WaitForSeconds(10f);
 
-            SpawnTEnemies(3 + minutecounter);
-            SpawnSEnemies(2 + minutecounter);
-            SpawnAEnemies(2 + spawnCounter + minutecounter);
-            spawnCounter++;
-            BonusSpawn();
-            yield return new WaitForSeconds(15f);
+                SpawnTEnemies(3 + minutecounter);
+                SpawnSEnemies(1 + spawnCounter + minutecounter);
+                SpawnAEnemies(2 + minutecounter);
+                spawnCounter++;
+                BonusSpawn();
+                yield return new WaitForSeconds(15f);
 
-            SpawnTEnemies( 3 + spawnCounter + minutecounter);
-            SpawnSEnemies( 1 + minutecounter);
-            SpawnAEnemies(1 + minutecounter);
-            spawnCounter++;
-            BonusSpawn();
-            minutecounter++;
-            yield return new WaitForSeconds(10f);
+                SpawnTEnemies(3 + spawnCounter + minutecounter);
+                SpawnSEnemies(1 + spawnCounter + minutecounter);
+                SpawnAEnemies(1 + minutecounter);
+                spawnCounter++;
+                BonusSpawn();
+                yield return new WaitForSeconds(10f);
 
-            //2nd minute
-            SpawnAEnemies(5 + minutecounter);
-            SpawnSEnemies(3 + minutecounter);
-            SpawnTEnemies(3 + spawnCounter + minutecounter);
-            spawnCounter++;
-            BonusSpawn();
-            yield return new WaitForSeconds(15f);
-            SpawnAEnemies( 6 + minutecounter);
-            SpawnSEnemies( 3 + minutecounter);
-            SpawnTEnemies( 3 + spawnCounter + minutecounter);
-            spawnCounter++;
-            BonusSpawn();
-            yield return new WaitForSeconds(15f);
-            SpawnAEnemies( 6 + minutecounter);
-            SpawnSEnemies( 3 + minutecounter);
-            SpawnTEnemies( 3 + spawnCounter + minutecounter);
-            spawnCounter++;
-            BonusSpawn();
-            yield return new WaitForSeconds(15f);
-            SpawnAEnemies(7 + minutecounter);
-            SpawnSEnemies( 3 + minutecounter);
-            SpawnTEnemies(3 + spawnCounter + minutecounter);
-            spawnCounter++;
-            BonusSpawn();
-            yield return new WaitForSeconds(15f);
-            minutecounter++;
-            //3rd minute;
-            SpawnAEnemies( 5 + minutecounter);
-            SpawnSEnemies( 5 + minutecounter);
-            SpawnTEnemies( 10 + spawnCounter + minutecounter);
-            spawnCounter++;
-            BonusSpawn();
-            yield return new WaitForSeconds(15f);
-            SpawnAEnemies( 6 + minutecounter);
-            SpawnSEnemies(5 + minutecounter);
-            SpawnTEnemies(10 + spawnCounter + minutecounter);
-            spawnCounter++;
-            BonusSpawn();
-            yield return new WaitForSeconds(15f);
-            SpawnAEnemies(6 + minutecounter);
-            SpawnSEnemies(5 + minutecounter);
-            SpawnTEnemies(10 + spawnCounter + minutecounter);
-            spawnCounter++;
-            BonusSpawn();
-            yield return new WaitForSeconds(15f);
-            SpawnAEnemies(7 + minutecounter);
-            SpawnSEnemies( 5 + minutecounter);
-            SpawnTEnemies(10 + spawnCounter + minutecounter);
-            spawnCounter++;
-            BonusSpawn();
-            yield return new WaitForSeconds(15f);
-            minutecounter++;
-            //4th minute
-            SpawnAEnemies(10 + minutecounter);
-            SpawnSEnemies(10 + minutecounter);
-            SpawnTEnemies(10 + spawnCounter + minutecounter);
-            spawnCounter++;
-            BonusSpawn();
-            yield return new WaitForSeconds(15f);
-            SpawnAEnemies(10 + minutecounter);
-            SpawnSEnemies(10 + minutecounter);
-            SpawnTEnemies(10 + spawnCounter + minutecounter);
-            spawnCounter++;
-            BonusSpawn();
+                SpawnTEnemies(3 + minutecounter);
+                SpawnSEnemies(2 + minutecounter);
+                SpawnAEnemies(2 + spawnCounter + minutecounter);
+                spawnCounter++;
+                BonusSpawn();
+                yield return new WaitForSeconds(15f);
+
+                SpawnTEnemies(3 + spawnCounter + minutecounter);
+                SpawnSEnemies(1 + minutecounter);
+                SpawnAEnemies(1 + minutecounter);
+                spawnCounter++;
+                BonusSpawn();
+                minutecounter++;
+                yield return new WaitForSeconds(10f);
+
+                //2nd minute
+                SpawnAEnemies(5 + minutecounter);
+                SpawnSEnemies(3 + minutecounter);
+                SpawnTEnemies(3 + spawnCounter + minutecounter);
+                spawnCounter++;
+                BonusSpawn();
+                yield return new WaitForSeconds(15f);
+                SpawnAEnemies(6 + minutecounter);
+                SpawnSEnemies(3 + minutecounter);
+                SpawnTEnemies(3 + spawnCounter + minutecounter);
+                spawnCounter++;
+                BonusSpawn();
+                yield return new WaitForSeconds(15f);
+                SpawnAEnemies(6 + minutecounter);
+                SpawnSEnemies(3 + minutecounter);
+                SpawnTEnemies(3 + spawnCounter + minutecounter);
+                spawnCounter++;
+                BonusSpawn();
+                yield return new WaitForSeconds(15f);
+                SpawnAEnemies(7 + minutecounter);
+                SpawnSEnemies(3 + minutecounter);
+                SpawnTEnemies(3 + spawnCounter + minutecounter);
+                spawnCounter++;
+                BonusSpawn();
+                yield return new WaitForSeconds(15f);
+                minutecounter++;
+                //3rd minute;
+                SpawnAEnemies(5 + minutecounter);
+                SpawnSEnemies(5 + minutecounter);
+                SpawnTEnemies(10 + spawnCounter + minutecounter);
+                spawnCounter++;
+                BonusSpawn();
+                yield return new WaitForSeconds(15f);
+                SpawnAEnemies(6 + minutecounter);
+                SpawnSEnemies(5 + minutecounter);
+                SpawnTEnemies(10 + spawnCounter + minutecounter);
+                spawnCounter++;
+                BonusSpawn();
+                yield return new WaitForSeconds(15f);
+                SpawnAEnemies(6 + minutecounter);
+                SpawnSEnemies(5 + minutecounter);
+                SpawnTEnemies(10 + spawnCounter + minutecounter);
+                spawnCounter++;
+                BonusSpawn();
+                yield return new WaitForSeconds(15f);
+                SpawnAEnemies(7 + minutecounter);
+                SpawnSEnemies(5 + minutecounter);
+                SpawnTEnemies(10 + spawnCounter + minutecounter);
+                spawnCounter++;
+                BonusSpawn();
+                yield return new WaitForSeconds(15f);
+                minutecounter++;
+                //4th minute
+                SpawnAEnemies(10 + minutecounter);
+                SpawnSEnemies(10 + minutecounter);
+                SpawnTEnemies(10 + spawnCounter + minutecounter);
+                spawnCounter++;
+                BonusSpawn();
+                yield return new WaitForSeconds(15f);
+                SpawnAEnemies(10 + minutecounter);
+                SpawnSEnemies(10 + minutecounter);
+                SpawnTEnemies(10 + spawnCounter + minutecounter);
+                spawnCounter++;
+                BonusSpawn();
+            }
             //wait untill Boss spawn.
+            if(Titlemanage.saveData.leveltwo == true)
+            {
+                SpawnAEnemies(6 + minutecounter);
+                SpawnSEnemies(5 + minutecounter);
+                SpawnTEnemies(10 + spawnCounter + minutecounter);
+                spawnCounter++;
+                BonusSpawn();
+                yield return new WaitForSeconds(15f);
+                SpawnAEnemies(7 + minutecounter);
+                SpawnSEnemies(5 + minutecounter);
+                SpawnTEnemies(10 + spawnCounter + minutecounter);
+                spawnCounter++;
+                BonusSpawn();
+                yield return new WaitForSeconds(15f);
+                minutecounter++;
+                SpawnAEnemies(10 + minutecounter);
+                SpawnSEnemies(10 + minutecounter);
+                SpawnTEnemies(10 + spawnCounter + minutecounter);
+                spawnCounter++;
+                BonusSpawn();
+                yield return new WaitForSeconds(15f);
+                SpawnAEnemies(10 + minutecounter);
+                SpawnSEnemies(10 + minutecounter);
+                SpawnTEnemies(10 + spawnCounter + minutecounter);
+            }
         }
     }
     void BonusSpawn()

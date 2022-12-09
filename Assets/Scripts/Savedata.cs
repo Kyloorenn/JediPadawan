@@ -12,4 +12,5 @@ public class SaveData
     public bool isone ;
     public bool istwo ;
     public bool buyFighter ;
+    public bool leveltwo;
 }

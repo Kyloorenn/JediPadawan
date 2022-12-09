@@ -10,7 +10,15 @@ public class ForceBar : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+        if (!player && Titlemanage.saveData.isone == true)
+        {
+            player = GameObject.Find("Padawan").GetComponent<Player>();
+
+        }
+        else if (!player && Titlemanage.saveData.istwo == true)
+        {
+            player = GameObject.Find("Fighter").GetComponent<Player>();
+        }
     }
 
     // Update is called once per frame

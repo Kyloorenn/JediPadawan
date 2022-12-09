@@ -8,7 +8,7 @@ public class PlayerHPBar : MonoBehaviour
 {
     [SerializeField] Player player;
     [SerializeField] Image HPBar;
-    [SerializeField] Player[] players;
+    //[SerializeField] Player[] players;
 
     void Start()
     {

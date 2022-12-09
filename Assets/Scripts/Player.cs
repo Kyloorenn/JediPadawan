@@ -50,7 +50,7 @@ public class Player : MonoBehaviour
     //character #1 or character #2
     public bool one = false;
     public bool two = false;
-    
+
 
 
 
@@ -128,6 +128,11 @@ public class Player : MonoBehaviour
                     Settlement.SetActive(true);
                 }
             }
+        }
+        if (collision.gameObject.tag == "Portal")
+        {
+            Titlemanage.saveData.leveltwo = true;
+            SceneManager.LoadScene("Game2");
         }
     }
     public float GetHPRatio()
