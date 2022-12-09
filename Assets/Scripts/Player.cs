@@ -437,7 +437,14 @@ public class Player : MonoBehaviour
            
         }
         material.SetFloat("_KillingSpree",killingStreak);
-       
-        
+
+        if (Input.GetKeyDown(KeyCode.O)) 
+        {
+            Settlement.SetActive(true);
+        }
+        if(Input.GetKeyDown(KeyCode.P) )
+        {
+            Settlement.SetActive(false);
+        }
     }
 }

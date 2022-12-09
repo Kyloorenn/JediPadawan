@@ -31,7 +31,7 @@ public class GameRecord : MonoBehaviour
         boss_kill = false;
         enemy = GameObject.FindGameObjectWithTag("Enemy").GetComponent<Enemy>();
         player = GameObject.FindGameObjectWithTag("Player").GetComponent<Player>();
-        initial_gold = player.coins;
+        initial_gold = Titlemanage.saveData.goldCoins;
     }
    
     // Update is called once per frame
