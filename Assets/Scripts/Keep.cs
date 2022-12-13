@@ -9,6 +9,7 @@ public class Keep : MonoBehaviour
     [SerializeField] GameObject maincamera;
     [SerializeField] GameObject gameRecord;
     [SerializeField] GameObject bulletpool;
+    [SerializeField] GameObject screenCanvas;
     // Start is called before the first frame update
     void Start()
     {
@@ -17,6 +18,7 @@ public class Keep : MonoBehaviour
         DontDestroyOnLoad(maincamera);
         DontDestroyOnLoad(gameRecord);
         DontDestroyOnLoad(bulletpool );
+        DontDestroyOnLoad(screenCanvas);
     }
 
     // Update is called once per frame
