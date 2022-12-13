@@ -82,7 +82,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 1
+  m_SortingOrder: 2
   m_Sprite: {fileID: 952976784, guid: 9aaec94e526126646990742b46510e74, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 1
@@ -192,7 +192,7 @@ MonoBehaviour:
   goldcoin: {fileID: 3364976525046304597, guid: 00ac1af3bd772414e926511d02e1d095, type: 3}
   bossProjectile: {fileID: 8348822968903601387, guid: 042aee51308fa2042ac642bd5e9698b6, type: 3}
   portal: {fileID: 1793019169434196781, guid: 3ef828cec73768443b0d1ab6e40b6b5c, type: 3}
-  EnemyHealth: 80
+  EnemyHealth: 5
   gunCD: 3
   isdead: 0
   CanFire: 1
